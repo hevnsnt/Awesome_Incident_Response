@@ -11,7 +11,7 @@ Recognized as an influential figure in the industry, I have established a promin
 I am an industry leader in cyber defense strategy, and have over 18 years of experience in both technical and executive cyber security roles. I have devoted my career to building and protecting critical infrastructure and Fortune 100 companies from advanced threats. I bring direct experience from ‘hands on keyboard’ from being on the front lines, and in-depth understanding of the challenges security teams are faced with. I've been there, I know what you are going through, and I put together Awesome Incident Response to hopefully make your security team better.  
 
 <p align="center">
-:rocket: <b>My super power is understanding how something works and teaching it to others.</b>
+:rocket::rocket: <b>My super power is understanding how something works and teaching it to others.</b> :rocket::rocket:
 </p>
 
 
