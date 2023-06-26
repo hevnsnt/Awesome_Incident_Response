@@ -21,21 +21,33 @@ This curated list of tools and resources is aimed to help security analysts and 
 ### Preparation
 Effective Incident Response happens BEFORE an incident occurs. Awesome Incident Response requires a collaboration across multiple teams, and surprise not all of them are IT & Security. This section describes how to ensure that you have the right people, capbabilities, authorities, and processes in place in order to effectively respond to a crisis. Then we will discuss how to test your IR capablity to validate that everything is working as expected.
 
+Read More on the [Preparation Chapter](./preparation.md)
+
 ## Identifcation
 Before we _Declare_ an incident, we need to identify the severity and impact of a security _event_. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the _correct things_ in your environment to quickly detect events as they occur in your environment.
+
+Read More on the [Identification Chapter](./identification.md)
 
 ## Containment
 The "containment" phase of incident response refers to the stage in which the primary objective is to limit the impact and scope of a security incident or breach. During this phase, the incident response team works swiftly to prevent further damage, isolate affected systems or areas, and mitigate the immediate risks associated with the incident. The containment phase is crucial in minimizing the potential harm caused by the incident and laying the foundation for subsequent recovery and remediation efforts.
 
+Read More on the [Containment Chapter](./containment.md)
+
 ## Eradication
 The "eradication" phase of incident response is the stage where the incident response team focuses on completely removing the cause of the security incident or breach from the affected systems and infrastructure. The objective is to eliminate any remnants of the attacker's presence and ensure that the environment is secure and free from vulnerabilities that could be exploited in the future. The eradication phase typically follows the containment phase and precedes the recovery and lessons learned phases.
+
+Read More on the [Eradication Chapter](./eradication.md)
 
 
 ## Recovery
 The "recovery" phase of incident response refers to the stage where the focus shifts towards restoring normal business operations and returning the affected systems, networks, and data to a fully functional and secure state. The recovery phase follows the containment and eradication phases and involves activities aimed at recovering from the impact of the incident and minimizing any disruption caused to the organization. Often companies move to the recovery phase before Containment and Eradication are complete, leading to ineffective incient response and delaying a normal operating state. Do not make this mistake.
 
+Read More on the [Recovery Chapter](./recovery.md)
+
 ## Lessons Learned
 The "lessons learned" phase of incident response is a crucial step that occurs after the incident has been resolved and normal operations have been restored. This phase focuses on reflecting on the incident response process and identifying valuable insights, improvements, and best practices to enhance future incident response efforts. The primary goal is to learn from the incident, prevent similar incidents from occurring in the future, and strengthen the overall security posture of the organization.
+
+Read More on the [Lessons Learned Chapter](./lessonslearned.md)
 
 ## Tools Index
 An amazing list of resources for an incident responder.
