@@ -19,7 +19,7 @@ I have been the founder of many security-related organizations such as SecKC ([s
 
 I am a big believer in **“be nice"** :slightly_smiling_face: even when things get tough and **"the harder you work, the luckier you get"** If you really want to get on my good side, show me something you made. :)
 
-**Strong expertise in the following areas:**
+###Strong expertise in the following areas:
 
 Incident Response, Computer Forensics, Security policy development & enforcement, Security product development, Cryptography, Blockchain, virtual currency, Legal and regulatory compliance, Information security risk assessment, Cloud Security, Modern Authentication, Vulnerability assessment, Team building and management, Malware analysis, DDoS mitigation, Large Language Models (LLM), AI, and long lists of things in camelCase.
 
