@@ -1,7 +1,5 @@
 Hello visitor!
-<p align="left">
-  <img src="./images/bill-bio.jpeg" width="350" alt="Bill Swearingen's bio picture" title="Bill Swearingen">
-</p>
+<img align="left" src="./images/bill-bio.jpeg" alt="Bill Swearingen's bio picture" title="Bill Swearingen">
 I am Bill Swearingen (hevnsnt), a super nerd about anything and everything cyber security. I started on the mean streets of the hacking scene and grew up into a career where I have run extremely large security teams for the largest of companies. This has given me a unique background to fully understand significantly advanced cyber attacks and managing corporate risk. I geek out at finding solutions which enable companies to succeed… securely.
 
 **Strong expertise in the following areas:**
