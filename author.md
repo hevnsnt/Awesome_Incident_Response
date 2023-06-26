@@ -2,7 +2,10 @@ Hello visitor!
 <img align="left" src="./images/bill-bio.jpeg" width="300" alt="Bill Swearingen's bio picture" title="Bill Swearingen">
 I am Bill Swearingen (hevnsnt), a super nerd about anything and everything cyber security. I started on the mean streets of the hacking scene and grew up into a career where I have run extremely large security teams for the largest of companies. This has given me a unique background to fully understand significantly advanced cyber attacks and managing corporate risk. I geek out at finding solutions which enable companies to succeed… securely.
 
+I am an industry leader in cyber defense strategy, and have over 18 years of experience in both technical and executive cyber security roles. I have devoted my career to building and protecting critical infrastructure and Fortune 100 companies from advanced threats. I bring direct experience from ‘hands on keyboard’ experience from being on the front lines, and in-depth understanding of the challenges security teams are faced with. I've been there, I know what you are going through, and I put together Awesome Incident Response to hopefully make your security team better.  
+
 **Strong expertise in the following areas:**
+
 Incident Response, Computer Forensics, Security policy development & enforcement, Security product development, Cryptography, Blockchain, virtual currency, Legal and regulatory compliance, Information security risk assessment, Cloud Security, Modern Authentication, Vulnerability assessment, Team building and management, Malware analysis, DDoS mitigation, Large Language Models (LLM), AI, and long lists of things in camelCase.
 
 
