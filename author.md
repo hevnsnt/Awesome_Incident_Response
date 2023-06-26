@@ -21,14 +21,16 @@ TRIFIDENT is a cybersecurity company founded by a team of experts who have exten
 
 ## A Technical Look into Bill
 Well, I would not consider myself a developer, but I like to write code.  Most of my favorite projects are currently private (sorry) but I have written tools like:
-* David (an AI LLM designed to identify vulnerabilities in code)
-* The backend and APIs for http://localmusic.info (a website that displays Local Music events in Kansas City
+* David: An AI LLM designed to identify vulnerabilities in code
+* LocalMusic:[LocalMusic.info](http://localmusic.info) is a website that displays Local Music events in Kansas City
 * IPChanger which uses the TOR Controlport to request a new exit node, and will keep working until it gets one. Essentially, this changes your external IP address each time IPChanger is run.
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hevnsnt&repo=IPChanger)](https://github.com/anuraghazra/github-readme-stats)
 
 My goto language is always python, but here is a look into what I really write:
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hevnsnt)](https://github.com/anuraghazra/github-readme-stats)
 
-And finally, here is some motivation for me to start contributing code more often
+And finally, here is some motivation for me to start contributing code more often :)
+
 [![Hevnsnt's GitHub stats](https://github-readme-stats.vercel.app/api?username=hevnsnt&hide=contribs&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
