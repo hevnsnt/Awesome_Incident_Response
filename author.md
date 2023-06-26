@@ -14,8 +14,14 @@ Active participant in National Defense and Financial Services ISACs, M3AAWG, Wom
 
 I am a big believer in “be nice" and "the harder you work, the luckier you get" If you really want to get on my good side, show me something you made. :)
 
+## A Technical Look into Bill
+Well, I would not consider myself a developer, but I like to write code.  Most of my favorite projects are currently private (sorry) but I have written tools like David (an AI LLM designed to identify vulnerabilities in code), the backend and APIs for http://localmusic.info (a website that displays Local Music events in Kansas City, and IPChanger which uses the TOR Controlport to request a new exit node, and will keep working until it gets one. Essentially, this changes your external IP address each time IPChanger is run.
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hevnsnt&repo=IPChanger)](https://github.com/anuraghazra/github-readme-stats)
 
+### Top Languages Used:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hevnsnt)](https://github.com/anuraghazra/github-readme-stats)
+
+### Github Stats
 [![Hevnsnt's GitHub stats](https://github-readme-stats.vercel.app/api?username=hevnsnt&hide=contribs&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 WORK
