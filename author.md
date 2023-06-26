@@ -14,6 +14,8 @@ Active participant in National Defense and Financial Services ISACs, M3AAWG, Wom
 
 I am a big believer in “be nice" and "the harder you work, the luckier you get" If you really want to get on my good side, show me something you made. :)
 
+[![Hevnsnt's GitHub stats](https://github-readme-stats.vercel.app/api?username=hevnsnt)](https://github.com/anuraghazra/github-readme-stats)
+
 WORK
 Founder, TRIFIDENT Advisory
 EDUCATION
