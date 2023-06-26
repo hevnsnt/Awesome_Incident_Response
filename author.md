@@ -1,4 +1,5 @@
 Hello visitor!
+![Alt text](/posts/path/to/img.jpg "Optional title")
 I am Bill Swearingen (hevnsnt), a super nerd about anything and everything cyber security. I started on the mean streets of the hacking scene and grew up into a career where I have run extremely large security teams for the largest of companies. This has given me a unique background to fully understand significantly advanced cyber attacks and managing corporate risk. I geek out at finding solutions which enable companies to succeed… securely.
 
 **Strong expertise in the following areas:**
