@@ -5,6 +5,7 @@ I am Bill Swearingen (hevnsnt), a super nerd about anything and everything cyber
 **Strong expertise in the following areas:**
 Incident Response, Computer Forensics, Security policy development & enforcement, Security product development, Cryptography, Blockchain, virtual currency, Legal and regulatory compliance, Information security risk assessment, Cloud Security, Modern Authentication, Vulnerability assessment, Team building and management, Malware analysis, DDoS mitigation, Large Language Models (LLM), AI, and long lists of things in camelCase.
 
+
 **My super power is understanding how something works and teaching it to others.**
 
 I have been the founder of many security-related organizations such as SecKC (seckc.org) and the Cowtown Computer Congress (c3kc.org) and have served as President of Kansas City's FBI Infragard.
