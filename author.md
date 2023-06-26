@@ -1,6 +1,9 @@
 Hello visitor!
-![Bill Swearingen](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/images/bill-bio.jpeg "Bill Swearingen")
 ![Bill Swearingen](./images/bill-bio.jpeg)
+<p align="left">
+  <img src="./images/bill-bio.jpeg" width="350" title="Bill Swearingen">
+  <img src="./images/bill-bio.jpeg" width="350" alt="Bill Swearingen's bio picture" title="Bill Swearingen">
+</p>
 I am Bill Swearingen (hevnsnt), a super nerd about anything and everything cyber security. I started on the mean streets of the hacking scene and grew up into a career where I have run extremely large security teams for the largest of companies. This has given me a unique background to fully understand significantly advanced cyber attacks and managing corporate risk. I geek out at finding solutions which enable companies to succeed… securely.
 
 **Strong expertise in the following areas:**
