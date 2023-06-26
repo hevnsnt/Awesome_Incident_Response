@@ -8,8 +8,10 @@ I am an industry leader in cyber defense strategy, and have over 18 years of exp
 
 Incident Response, Computer Forensics, Security policy development & enforcement, Security product development, Cryptography, Blockchain, virtual currency, Legal and regulatory compliance, Information security risk assessment, Cloud Security, Modern Authentication, Vulnerability assessment, Team building and management, Malware analysis, DDoS mitigation, Large Language Models (LLM), AI, and long lists of things in camelCase.
 
-
+<p align="center">
 **My super power is understanding how something works and teaching it to others.**
+</p>
+
 
 I have been the founder of many security-related organizations such as SecKC (seckc.org) and the Cowtown Computer Congress (c3kc.org) and have served as President of Kansas City's FBI Infragard.
 
