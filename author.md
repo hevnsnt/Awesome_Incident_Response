@@ -13,7 +13,7 @@ Incident Response, Computer Forensics, Security policy development & enforcement
 </p>
 
 
-I have been the founder of many security-related organizations such as SecKC ([seckc.org](https://seckc.org) and the Cowtown Computer Congress ([c3kc.org](https://c3kc.org) and have served as President of Kansas City's FBI Infragard.
+I have been the founder of many security-related organizations such as SecKC ([seckc.org](https://seckc.org)) and the Cowtown Computer Congress ([c3kc.org](https://c3kc.org)) and have served as President of Kansas City's FBI Infragard.
 
 I have been an active participant in National Defense and Financial Services ISACs, M3AAWG, Women in Security, DEF CON, Black Hat, and various private threat sharing organizations.
 
