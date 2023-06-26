@@ -1,6 +1,7 @@
 <img align="left" src="./images/bill-bio.jpeg" width="300" alt="Bill Swearingen's bio picture" title="Bill Swearingen">
 I am Bill Swearingen (hevnsnt), a super nerd about anything and everything cyber security. I started on the mean streets of the hacking scene and grew up into a career where I have run extremely large security teams for the largest of companies. This has given me a unique background to fully understand significantly advanced cyber attacks and managing corporate risk. I geek out at finding solutions which enable companies to succeed… securely.
 
+
 Throughout my career, I have consistently delivered impactful results by implementing effective engineering, governance, risk management, and compliance strategies for multi-national corporations. As a vCISO for multiple organizations, I have successfully protected critical assets, ensured business continuity, and led compliance-based risk assessment and certification initiatives such as CMMC, ISO, NIST, and CIS. 
 
 But my core strengths lie in my ability to provide decisive leadership during critical incidents. I have managed extremely high-profile engagements, including UHNW family offices, medical institutions, financial corporations, and have developed security strategies for some of the largest companies in the world.
