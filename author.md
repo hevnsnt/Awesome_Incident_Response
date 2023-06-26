@@ -10,10 +10,6 @@ Recognized as an influential figure in the industry, I have established a promin
 
 I am an industry leader in cyber defense strategy, and have over 18 years of experience in both technical and executive cyber security roles. I have devoted my career to building and protecting critical infrastructure and Fortune 100 companies from advanced threats. I bring direct experience from ‘hands on keyboard’ from being on the front lines, and in-depth understanding of the challenges security teams are faced with. I've been there, I know what you are going through, and I put together Awesome Incident Response to hopefully make your security team better.  
 
-**Strong expertise in the following areas:**
-
-Incident Response, Computer Forensics, Security policy development & enforcement, Security product development, Cryptography, Blockchain, virtual currency, Legal and regulatory compliance, Information security risk assessment, Cloud Security, Modern Authentication, Vulnerability assessment, Team building and management, Malware analysis, DDoS mitigation, Large Language Models (LLM), AI, and long lists of things in camelCase.
-
 <p align="center">
 <b>My super power is understanding how something works and teaching it to others.</b>
 </p>
@@ -22,6 +18,10 @@ Incident Response, Computer Forensics, Security policy development & enforcement
 I have been the founder of many security-related organizations such as SecKC ([seckc.org](https://seckc.org)) and the Cowtown Computer Congress and have served as President of Kansas City's FBI Infragard. I have also been lucky enough to serve as an active participant in National Defense and Financial Services ISACs, [M3AAWG](https://www.m3aawg.org/), [Women in Security](https://www.wiskc.org/), [DEF CON](https://defcon.org), [Black Hat](https://www.blackhat.com), and various private threat sharing organizations.
 
 I am a big believer in **“be nice"** and **"the harder you work, the luckier you get"** If you really want to get on my good side, show me something you made. :)
+
+**Strong expertise in the following areas:**
+
+Incident Response, Computer Forensics, Security policy development & enforcement, Security product development, Cryptography, Blockchain, virtual currency, Legal and regulatory compliance, Information security risk assessment, Cloud Security, Modern Authentication, Vulnerability assessment, Team building and management, Malware analysis, DDoS mitigation, Large Language Models (LLM), AI, and long lists of things in camelCase.
 
 ## Work
 I am a co-Founder of [TRIFIDENT Advisory Service](https://trifident.com) 
