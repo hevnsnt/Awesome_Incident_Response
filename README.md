@@ -10,8 +10,8 @@
 - [Containment](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#containment)
 - [Eradication](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#eradication)
 - [Recovery](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#recovery)
-- [Lessions Learned](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#identification)
-- [Tools Index](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#identification)
+- [Lessions Learned](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#lessons-learned)
+- [Tools Index](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#tools-index)
 
 ### Preparation
 Effective Incident Response happens BEFORE an incident occurs. Awesome Incident Response requires a collaboration across multiple teams, and surprise not all of them are IT & Security. This section describes how to ensure that you have the right people, capbabilities, authorities, and processes in place in order to effectively respond to a crisis. Then we will discuss how to test your IR capablity to validate that everything is working as expected.
