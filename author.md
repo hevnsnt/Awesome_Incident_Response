@@ -37,7 +37,7 @@ Well, I would not consider myself a developer, but I like to write code.  Most o
 <img src="./images/davd-round-small.png" width="50" alt="David.AI" title="David.AI">
 David AI: ai-Driven Automated Vulnerability Identification and RemeDiation for Code Bases. An AI LLM designed to identify & fix vulnerabilities in code
 
-
+<img src="./images/localmusic-text-1.webp" width="100" alt="LocalMusic.info" title="LocalMusic.info">
 LocalMusic: [LocalMusic.info](http://localmusic.info) is a website that displays Local Music events in Kansas City
 * IPChanger which uses the TOR Controlport to request a new exit node, and will keep working until it gets one. Essentially, this changes your external IP address each time IPChanger is run.
 
