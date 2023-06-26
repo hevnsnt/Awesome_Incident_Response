@@ -25,7 +25,7 @@ TRIFIDENT is a cybersecurity company founded by a team of experts who have exten
 ## A Technical Look into Bill
 Well, I would not consider myself a developer, but I like to write code.  Most of my favorite projects are currently private (sorry) but I have written tools like:
 * David: An AI LLM designed to identify vulnerabilities in code
-* LocalMusic:[LocalMusic.info](http://localmusic.info) is a website that displays Local Music events in Kansas City
+* LocalMusic: [LocalMusic.info](http://localmusic.info) is a website that displays Local Music events in Kansas City
 * IPChanger which uses the TOR Controlport to request a new exit node, and will keep working until it gets one. Essentially, this changes your external IP address each time IPChanger is run.
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hevnsnt&repo=IPChanger)](https://github.com/anuraghazra/github-readme-stats)
