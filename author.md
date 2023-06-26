@@ -33,7 +33,7 @@ Additionally, We provide the best table top exercises available. Our exercises g
 
 ## A Technical Look into Bill
 Well, I would not consider myself a developer, but I like to write code.  Most of my favorite projects are currently private (sorry) but I have written tools such as:
-* <img align="left" src="./images/davd-round-small.png" width="50" alt="David.AI" title="David.AI">David: An AI LLM designed to identify vulnerabilities in code
+* <img src="./images/davd-round-small.png" width="50" alt="David.AI" title="David.AI">David: An AI LLM designed to identify vulnerabilities in code
 * LocalMusic: [LocalMusic.info](http://localmusic.info) is a website that displays Local Music events in Kansas City
 * IPChanger which uses the TOR Controlport to request a new exit node, and will keep working until it gets one. Essentially, this changes your external IP address each time IPChanger is run.
 
