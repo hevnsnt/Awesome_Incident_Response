@@ -3,7 +3,7 @@
 Welcome to "Awesome Incident Response," the ultimate open-source repository designed to guide you through the intricate world of incident response! Whether you're a seasoned cybersecurity professional or an aspiring enthusiast, this comprehensive collection of resources and tutorials will equip you with the knowledge and skills to effectively handle and mitigate security incidents. These strategies were developed with several decades of incident response experience and should guide you well through any type of cyber security incident.
 
 
-This curated list of tools and resources is aimed to help security analysts and [DFIR](http://www.acronymfinder.com/Digital-Forensics%2c-Incident-Response-%28DFIR%29.html) teams, and is always a work in progress.
+>This curated list of tools and resources is aimed to help security analysts and [DFIR](http://www.acronymfinder.com/Digital-Forensics%2c-Incident-Response-%28DFIR%29.html) teams, and is always a work in progress.
 
 I hope you find this valuable, and as always Pull requests are encouraged and appreciated!
 
