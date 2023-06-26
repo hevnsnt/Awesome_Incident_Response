@@ -7,7 +7,7 @@
 
 
 ## Contents
-- Preparation
+- [Preparation](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#preparation)
 - Identification
 - Containment
 - Eradication
