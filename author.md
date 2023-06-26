@@ -28,6 +28,9 @@ I am a co-Founder of [TRIFIDENT Advisory Service](https://trifident.com)
 
 TRIFIDENT is a cybersecurity company founded by a team of experts who have extensive experience in the private sector and the U.S.  Government. My partners and a I wanted to create a company that provides the level of expertise generally only available to large companies to companies of all sizes to protect themselves from cyber threats. We understand the importance of compliance with industry regulations and standards we work with our clients to ensure that they meet the necessary requirements. We offer consulting services to help our clients design and implement effective cybersecurity strategies that align with their business objectives. We are committed to providing our clients with the tools, knowledge, and expertise they need to protect their valuable assets. We stay at the forefront of the latest trends and technologies in the cybersecurity industry to ensure that our clients have access to the most advanced cybersecurity solutions available.
 
+Additionally, We provide the best table top exercises available. Our exercises go way beyond the traditional "Ransomeware Exercise".  We take the time to understand your company, and develop an exercise that implements real evidence for your team to find, and so many twists and turns that participants get the feel of a real event.  Our expertise tests both the technical Equipping organizations to effectively prepare for real-world cyber incident scenarios and identify critical gaps in organizational, technological, and communication processes.![image](https://github.com/hevnsnt/Awesome_Incident_Response/assets/4072860/dd50a572-3543-4813-a6d7-4f0c9f7cc574)
+
+
 ## A Technical Look into Bill
 Well, I would not consider myself a developer, but I like to write code.  Most of my favorite projects are currently private (sorry) but I have written tools like:
 * David: An AI LLM designed to identify vulnerabilities in code
