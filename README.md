@@ -17,6 +17,7 @@
 Effective Incident Response happens BEFORE an incident occurs. Awesome Incident Response requires a collaboration across multiple teams, and surprise not all of them are IT & Security. This section describes how to ensure that you have the right people, capbabilities, authorities, and processes in place in order to effectively respond to a crisis. Then we will discuss how to test your IR capablity to validate that everything is working as expected.
 
 ## Identifcation
+Before we _Declare_ an incident, we need to identify the severity and impact of a security _event_. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the _correct things_ in your environment to quickly detect events as they occur in your environment.
 
 ## Containment
 
