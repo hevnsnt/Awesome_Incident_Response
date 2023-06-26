@@ -24,7 +24,7 @@ I am a big believer in **“be nice"** :slightly_smiling_face: even when things 
 Incident Response, Computer Forensics, Security policy development & enforcement, Security product development, Cryptography, Blockchain, virtual currency, Legal and regulatory compliance, Information security risk assessment, Cloud Security, Modern Authentication, Vulnerability assessment, Team building and management, Malware analysis, DDoS mitigation, Large Language Models (LLM), AI, and long lists of things in camelCase.
 
 ## Work
-I am a co-Founder of [TRIFIDENT Advisory Service](https://trifident.com) 
+I am a co-Founder of [TRIFIDENT Advisory Services](https://trifident.com) 
 
 TRIFIDENT is a cybersecurity company founded by a team of experts who have extensive experience in the private sector and the U.S.  Government. My partners and a I wanted to create a company that provides the level of expertise generally only available to large companies to companies of all sizes to protect themselves from cyber threats. We understand the importance of compliance with industry regulations and standards we work with our clients to ensure that they meet the necessary requirements. We offer consulting services to help our clients design and implement effective cybersecurity strategies that align with their business objectives. We are committed to providing our clients with the tools, knowledge, and expertise they need to protect their valuable assets. We stay at the forefront of the latest trends and technologies in the cybersecurity industry to ensure that our clients have access to the most advanced cybersecurity solutions available.
 
