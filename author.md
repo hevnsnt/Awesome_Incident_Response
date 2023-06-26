@@ -17,7 +17,7 @@ Recognized as an influential figure in the industry, I have established a promin
 
 I have been the founder of many security-related organizations such as SecKC ([seckc.org](https://seckc.org)) and the Cowtown Computer Congress and have served as President of Kansas City's FBI Infragard. I have also been lucky enough to serve as an active participant in National Defense and Financial Services ISACs, [M3AAWG](https://www.m3aawg.org/), [Women in Security](https://www.wiskc.org/), [DEF CON](https://defcon.org), [Black Hat](https://www.blackhat.com), and various private threat sharing organizations.
 
-I am a big believer in **“be nice"** and **"the harder you work, the luckier you get"** If you really want to get on my good side, show me something you made. :)
+I am a big believer in **“be nice"** :slightly_smiling_face: even when things get tough and **"the harder you work, the luckier you get"** If you really want to get on my good side, show me something you made. :)
 
 **Strong expertise in the following areas:**
 
