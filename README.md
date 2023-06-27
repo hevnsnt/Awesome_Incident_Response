@@ -3,10 +3,11 @@
 Welcome to "Awesome Incident Response" the ultimate open-source repository designed to simplify and guide you through the intricate world of incident response! Whether you're a seasoned cybersecurity professional or an aspiring enthusiast, this comprehensive collection of resources and tutorials will equip you with the knowledge and skills to effectively handle and mitigate security incidents. These strategies were developed with several decades of incident response experience and should guide you well through any type of cyber security incident, and pulls text and images from multiple sources that will be cited. 
 
 ---
-**FUNDING:** If you believe that a community driven, open-sourced, and validated "Awesome Incident Response" resource is valuable for the internet to reference, please consider funding this project. 
+**FUNDING:** 
+If you believe that a community driven, open-sourced, and validated "Awesome Incident Response" resource is valuable for the internet to reference, please consider funding this project. 
 
 ---
-**Using this Guide**
+**Using this Guide:**
 The main page (this page) should be considered the consolidated aka the "For Dummies" version of the Awesome Incident Response guide. Each phase of Awesome Incident Response is described and gives you the best practices needed for an effecient and effective response.  But if you want more detail, or need additional guidance, each section will have a [Read More] that will go more in depth.
 
 ---
