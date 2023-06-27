@@ -11,7 +11,7 @@ This curated list of tools and resources is aimed to help security leaders, anal
 
 **Awesome Incident Response Percentage Complete:**
 
-![02](https://progress-bar.dev/02/?title=Completeness)
+![02](https://progress-bar.dev/02/?title=Completeness) 
 
 [-Bill (hevnsnt)](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/author.md)
 
