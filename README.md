@@ -22,7 +22,7 @@ If you believe that a community driven, open-sourced, and validated "Awesome Inc
 
 ---
 
-
+<img align="center" src="./images/Awesome-Incident-Response-Logo.png" width="800" alt="Awesome Incident Response Logo" title="Awesome Incident Response Logo">
 
 ## Contents
 - [Preparation](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#preparation)
