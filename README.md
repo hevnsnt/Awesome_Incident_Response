@@ -21,8 +21,9 @@ This curated list of tools and resources is aimed to help security leaders, anal
 If you believe that a community driven, open-sourced, and validated "Awesome Incident Response" resource is valuable for the internet to reference, please consider supporting this project. You can find more information for supporting the project in the right-sidebar.  Anything you contribute is greatly appreciated and goes 100% to supporting this project!
 
 ---
-
+<p align="center">
 <img align="center" src="./images/Awesome-Incident-Response-Logo.png" width="800" alt="Awesome Incident Response Logo" title="Awesome Incident Response Logo">
+</p>
 
 ## Contents
 - [Preparation](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#preparation)
