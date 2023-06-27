@@ -6,8 +6,11 @@ Welcome to "Awesome Incident Response" the ultimate open-source repository desig
 **FUNDING:** If you believe that a community driven, open-sourced, and validated "Awesome Incident Response" resource is valuable for the internet to reference, please consider funding this project. 
 
 ---
+**Using this Guide**
+The main page (this page) should be considered the consolidated aka the "For Dummies" version of the Awesome Incident Response guide. Each phase of Awesome Incident Response is described and gives you the best practices needed for an effecient and effective response.  But if you want more detail, or need additional guidance, each section will have a [Read More] that will go more in depth.
 
-This curated list of tools and resources is aimed to help security analysts and [DFIR](http://www.acronymfinder.com/Digital-Forensics%2c-Incident-Response-%28DFIR%29.html) teams, and is always a work in progress. I hope you find this valuable, and as always Pull requests are encouraged and appreciated!
+---
+This curated list of tools and resources is aimed to help security leaders, analysts, and [DFIR](http://www.acronymfinder.com/Digital-Forensics%2c-Incident-Response-%28DFIR%29.html) teams, and is always a work in progress. I hope you find this valuable, and as always Pull requests are encouraged and appreciated!
 
 [-Bill (hevnsnt)](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/author.md)
 
