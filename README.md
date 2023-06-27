@@ -4,10 +4,12 @@ Welcome to "Awesome Incident Response" the ultimate open-source repository desig
 
 ---
 **FUNDING:** 
-If you believe that a community driven, open-sourced, and validated "Awesome Incident Response" resource is valuable for the internet to reference, please consider funding this project. 
+
+If you believe that a community driven, open-sourced, and validated "Awesome Incident Response" resource is valuable for the internet to reference, please consider supporting this project. You can find more information for supporting the project in the right-sidebar.  Anything you contribute is greatly appreciated and goes 100% to supporting this project!
 
 ---
 **Using this Guide:**
+
 The main page (this page) should be considered the consolidated aka the "For Dummies" version of the Awesome Incident Response guide. Each phase of Awesome Incident Response is described and gives you the best practices needed for an effecient and effective response.  But if you want more detail, or need additional guidance, each section will have a [Read More] that will go more in depth.
 
 ---
