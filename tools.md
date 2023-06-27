@@ -1,6 +1,5 @@
 # Incident Response Toolkit
-The following list was originally developed by [meirwah](https://github.com/meirwah/awesome-incident-response) however over the years
-it has become out of date. I have significantly curated and updated the list as part of [Awesome Incident Response](https://github.com/hevnsnt/Awesome_Incident_Response)
+The following list was originally developed by [meirwah](https://github.com/meirwah/awesome-incident-response) however it is my opinion that this is an "Awesome List of BlueTeam Tools" and does not cover "Incident Response". Additionally, several of the tools listed on that repository have become abandoned over the years, and is not formatted in the manner that I would prefer.  For those reasons, I have decided to include it here, curated, updated, and reformatted in my preferred format as part of [Awesome Incident Response](https://github.com/hevnsnt/Awesome_Incident_Response)
 
                                            !!THIS PAGE IS STILL A WORK IN PROGRESS!!
 
