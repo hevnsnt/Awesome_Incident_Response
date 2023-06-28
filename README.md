@@ -22,7 +22,10 @@ If you believe that a community driven, open-sourced, and validated "Awesome Inc
 
 ---
 <p align="center">
-<img align="center" src="./images/Awesome-Incident-Response-Logo.png" width="800" alt="Awesome Incident Response Logo" title="Awesome Incident Response Logo">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./images/Awesome-Incident-Response-Logo-Darkmode.png">
+  <img alt="Text changing depending on mode. Light: 'Awesome Incident Response Logo' Dark: 'Awesome Incident Response Logo'" src="./images/Awesome-Incident-Response-Logo.png">
+</picture>
 </p>
 
 ## Contents
