@@ -11,7 +11,7 @@ This curated list of tools and resources is aimed to help security leaders, anal
 
 **Awesome Incident Response Percentage Complete:**
 
-![02](https://progress-bar.dev/02/?title=Completeness) 
+![06](https://progress-bar.dev/06/?title=Completeness) 
 
 [-Bill (hevnsnt)](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/author.md)
 
@@ -41,16 +41,19 @@ If you believe that a community driven, open-sourced, and validated "Awesome Inc
 Oh preparation, the most likely of all steps to be skipped, and only gets attention after the company suffered substantial losses and had to hire external consultants.
 
 **DO NOT SKIP THIS STEP**
-**Please, do it now. You will thank me later**
-Effective Incident Response happens BEFORE an incident occurs. Awesome Incident Response requires a collaboration across multiple teams, and surprise not all of them are IT & Security. This section describes how to ensure that you have the right people, capbabilities, authorities, and processes in place in order to effectively respond to a crisis. Then we will discuss how to test your IR capablity to validate that everything is working as expected.
+**Please, do it now. You will thank me later when you do not need to hire me to help you respond to an incident**
+Effective Incident Response happens BEFORE an incident occurs. Awesome Incident Response requires a collaboration across multiple teams, and !surprise! not all of them are IT & Security. This section describes how to ensure that you have the right people, capbabilities, authorities, and processes in place in order to effectively respond to a crisis. Then we will discuss how to test your IR capablity to validate that everything is working as expected.
 
 Preparation is EASY AND FUN. By preparing before a crisis occurs, you can minimize the damage and ensure a quick response when faced with an attack. Also, you will look like a hero!
 
 Do these 5 things now to greatly improve your ability to respond to any cyber crisis:
 
-**Develop an Incident Response Plan and exercise it:** Your company should have a comprehensive plan in place that outlines the steps to be taken in the event of a cyber attack or breach. This plan should include clear roles and responsibilities for responding to an incident, as well as contact information for key stakeholders and outside experts.
+**Develop an Incident Response Plan and exercise it:** 
+
+Your company should have a comprehensive plan in place that outlines the steps to be taken in the event of a cyber attack or breach. This plan should include clear roles and responsibilities for responding to an incident, as well as contact information for key stakeholders and outside experts.
 
 **Ensure you are logging the correct events:**
+
 I have worked thousands of incidents, and I have never seen an organization that is logging all the data sources that would have been extremely helpful for the detection and/or response. Often this is because they simply do not know what to log, or the expense of logging is something hey have not tackled (or received approval for) yet. Having a logging plan is essential, as a security leader, you can’t keep going back to get more budget as new applications, services, networks, or assets are introduced to your environment.  These costs need to be built into the project BEFORE it was implemented. At the very basic level, you need to be logging the following areas, retained for at least 90 days:
 
 * Authentication (Active Directory, Identity Providers, Application, CASB, etc.) If a user logs into it, you should have that log.
@@ -66,13 +69,27 @@ I have worked thousands of incidents, and I have never seen an organization that
 * Servers (Cloud and On-prem)
 
 
-**Regularly update software and systems:** Keeping all software and systems up-to-date with the latest security patches and upgrades is essential. This includes not just operating systems, but also any applications and devices connected to the network.
+**Regularly update software and systems:** 
 
-**Conduct regular security assessments:** Regular security assessments can help identify vulnerabilities in your systems before they are exploited. This can include regular penetration testing, vulnerability scans, and security audits.
+Keeping all software and systems up-to-date with the latest security patches and upgrades is essential. This includes not just operating systems, but also any applications and devices connected to the network.
 
-**Train employees:** Regular training for all employees on cybersecurity best practices and the importance of data privacy is crucial. This will not only raise awareness about potential risks, but also help prevent incidents from happening in the first place.
+[Brian Krebs](https://krebsonsecurity.com/2011/05/krebss-3-basic-rules-for-online-safety/) Wrote "Krebs’s 3 Basic Rules for Online Safety" in 2011 and it still remains true today:
 
-**Establish partnerships:** Establishing partnerships with outside experts, such as cybersecurity firms or incident response teams, can provide additional support and expertise in the event of a crisis. Having these relationships in place before an incident occurs can help ensure a rapid and effective response.
+* If you didn’t go looking for it, don’t install it.
+* If you installed it, update it.
+* If you no longer need it, remove it.
+
+**Conduct regular security assessments:** 
+
+Regular security assessments can help identify vulnerabilities in your systems before they are exploited. This can include regular penetration testing, vulnerability scans, and security audits.
+
+**Train employees:** 
+
+Regular training for all employees on cybersecurity best practices and the importance of data privacy is crucial. This will not only raise awareness about potential risks, but also help prevent incidents from happening in the first place.
+
+**Establish partnerships:** 
+
+Establishing partnerships with outside experts, such as cybersecurity firms or incident response teams, can provide additional support and expertise in the event of a crisis. Having these relationships in place before an incident occurs can help ensure a rapid and effective response.
 
 Read More on the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md)
 
