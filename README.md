@@ -96,7 +96,7 @@ Read More on the [Preparation Chapter](./chapters/1%20-%20Preparation/preparatio
 ## Identifcation
 Before we _Declare_ an incident, we need to identify the severity and impact of a security _event_. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the _correct things_ in your environment to quickly detect events as they occur in your environment.
 
-Being able to fully understand the scope of a security incidenty, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?.  All of these can be answered with an Awesome Logging strategy.  The following is a good starting point of systems that should be logged, and logs should be located on a separate system and retained for at least 90 days.
+Being able to fully understand the scope of a security incident, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?.  All of these can be answered with an Awesome Logging strategy.  The following is a good starting point of systems that should be logged, and logs should be located on a separate system and retained for at least 90 days.
 
 * Authentication (Active Directory, Identity Providers, Application, CASB, etc.) If a user logs into it, you should have that log.
 * Firewalls
