@@ -49,7 +49,7 @@ Also, you will look like a hero! Awesome Incident Response requires a collaborat
 This section describes how to ensure that you have the right people, capbabilities, authorities, and processes in place in order to effectively respond to a crisis. 
 Then we will discuss how to test your IR capablity to validate that everything is working as expected.
 
-# Do these 7 things now to greatly improve your ability to respond to any cyber crisis:
+### Do these 7 things now to greatly improve your ability to respond to any cyber crisis:
 
 **1. Develop an Incident Response Plan and exercise it:** 
 
