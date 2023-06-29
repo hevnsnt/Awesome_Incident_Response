@@ -1,6 +1,20 @@
 ![05](https://progress-bar.dev/15/?title=Completeness) 
 
 !!STILL UNDER DEVELOPMENT!!
+# Preparation
+Oh preparation, the most likely of all steps to be skipped, and only gets attention after the company suffered substantial losses and had to hire external consultants.
+
+**DO NOT SKIP THIS STEP**
+
+**Please, do it now. You will thank me later when you do not need to hire me to help you respond to an incident.**
+
+Awesome Incident Response happens _BEFORE_ an incident occurs. Preparation is EASY AND FUN. By preparing before a crisis occurs, you can minimize impact and ensure a quick response when faced with an attack. 
+Also, you will look like a hero! Awesome Incident Response requires a collaboration across multiple teams, this is not only for IT & Security (surprise!). 
+This section describes how to ensure that you have the right people, capbabilities, authorities, and processes in place in order to effectively respond to a crisis. 
+Then we will discuss how to test your IR capablity to validate that everything is working as expected.
+
+### Do these 7 things now to greatly improve your ability to respond to any cyber crisis:
+
 
 ### 1. Develop an Incident Response Plan and exercise it:
 
