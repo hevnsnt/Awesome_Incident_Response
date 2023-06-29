@@ -1,4 +1,4 @@
-![05](https://progress-bar.dev/15/?title=Completeness) 
+![25](https://progress-bar.dev/25/?title=Completeness) 
 
 !!STILL UNDER DEVELOPMENT!!
 # Preparation
