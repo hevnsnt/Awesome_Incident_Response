@@ -45,7 +45,7 @@ Oh preparation, the most likely of all steps to be skipped, and only gets attent
 
 **Please, do it now. You will thank me later when you do not need to hire me to help you respond to an incident.**
 
-Effective Incident Response happens _BEFORE_ an incident occurs. Preparation is EASY AND FUN. By preparing before a crisis occurs, you can minimize the damage and ensure a quick response when faced with an attack. 
+Awesome Incident Response happens _BEFORE_ an incident occurs. Preparation is EASY AND FUN. By preparing before a crisis occurs, you can minimize impact and ensure a quick response when faced with an attack. 
 Also, you will look like a hero! Awesome Incident Response requires a collaboration across multiple teams, and !surprise! not all of them are IT & Security. 
 This section describes how to ensure that you have the right people, capbabilities, authorities, and processes in place in order to effectively respond to a crisis. 
 Then we will discuss how to test your IR capablity to validate that everything is working as expected.
