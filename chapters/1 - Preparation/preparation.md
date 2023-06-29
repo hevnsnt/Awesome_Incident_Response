@@ -1,4 +1,4 @@
-![05](https://progress-bar.dev/05/?title=Completeness) 
+![05](https://progress-bar.dev/15/?title=Completeness) 
 
 !!STILL UNDER DEVELOPMENT!!
 
@@ -15,16 +15,18 @@ Develop an Incident Response Plan and exercise it: Your company should have a co
 Ensure you are logging the correct events: I have worked thousands of incidents, and I have never seen an organization that is logging all the data sources that would have been extremely helpful for the detection and/or response. Often this is because they simply do not know what to log, or the expense of logging is something hey have not tackled (or received approval for) yet. Having a logging plan is essential, as a security leader, you can’t keep going back to get more budget as new applications, services, networks, or assets are introduced to your environment. These costs need to be built into the project BEFORE it was implemented. At the very basic level, you need to be logging the following areas, retained for at least 90 days:
 
 Authentication (Active Directory, Identity Providers, Application, CASB, etc.) If a user logs into it, you should have that log.
-Firewalls
-Proxy / Webfiltering Solutions (DNS)
-Security Tools (IDS/IPS, DLP, Zeek, etc.)
-VPN Connections
-Anti-Malware / EDR
-Endpoint Command Line (Often overlooked, but is a GOLDMINE for Awesome Incident Response)
-DHCP
-Email Filtering / Spam Filtering
-Webservers / Application servers
-Servers (Cloud and On-prem)
+* Firewalls
+* Proxy / Webfiltering Solutions (DNS)
+* Security Tools (IDS/IPS, DLP, Zeek, etc.)
+* VPN Connections
+* Anti-Malware / EDR
+* Endpoint Command Line (Often overlooked, but is a GOLDMINE for Awesome Incident Response)
+* DHCP
+* Email Filtering / Spam Filtering
+* Webservers / Application servers
+* Servers (Cloud and On-prem)
+
+
 Regularly update software and systems: Keeping all software and systems up-to-date with the latest security patches and upgrades is essential. This includes not just operating systems, but also any applications and devices connected to the network.
 
 Conduct regular security assessments: Regular security assessments can help identify vulnerabilities in your systems before they are exploited. This can include regular penetration testing, vulnerability scans, and security audits.
