@@ -64,12 +64,6 @@ I have worked thousands of incidents, and I have never seen an organization that
 
 Keeping all software and systems up-to-date with the latest security patches and upgrades is essential. This includes not just operating systems, but also any applications and devices connected to the network. There should be a documented policy stating timelines for Critical, High, Medium, and Low severity software patches, with a documented exception process. Leverage asset tracking systems and your regular security assessments to validate that this process is working as intended. The [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md) goes into more detail on how to develop an Awesome vulnerability management program.
 
-[Brian Krebs](https://krebsonsecurity.com/2011/05/krebss-3-basic-rules-for-online-safety/) Wrote "Krebs’s 3 Basic Rules for Online Safety" in 2011 and it still remains true today:
-
-* If you didn’t go looking for it, don’t install it.
-* If you installed it, update it.
-* If you no longer need it, remove it.
-
 
 ### 4. Conduct regular security assessments:
 
