@@ -1,3 +1,32 @@
+Before we Declare an incident, we need to identify the severity and impact of a security event. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the correct things in your environment to quickly detect events as they occur in your environment.
+
+Being able to fully understand the scope of a security incident, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?. All of these can be answered with an Awesome Logging strategy. The following is a good starting point of systems that should be logged, and logs should be located on a separate system and retained for at least 90 days.
+
+### Authentication (Active Directory, Identity Providers, Application, CASB, etc.) 
+If a user logs into it, you should have that log. Luckily for us, most of the authentication systems do a pretty good job of this.  But at a minimum, you should be able to answer these questions:
+* Tell me every system that USERX has logged into over XXX Timeframe
+* Where did USERX login from?
+
+### Firewalls
+
+### Proxy / Webfiltering Solutions (DNS)
+
+### Security Tools (IDS/IPS, DLP, Zeek, etc.)
+
+### VPN Connections
+
+### Anti-Malware / EDR
+
+### Endpoint Command Line (Often overlooked, but is a GOLDMINE for Awesome Incident Response)
+
+### DHCP
+
+### Email Filtering / Spam Filtering
+
+### Webservers / Application servers
+
+### Servers (Cloud and On-prem)
+
 From: [Top 5 Log Sources You Should Be Ingesting but Probably Arn't](https://media.bitpipe.com/io_14x/io_147879/item_1961667/ReliaQuest-White-Paper-Top-5-Log-Sources-you-should-be-ingesting-but-pro....pdf)
 
 The prioritization of which often-overlooked log sources to ingest depends on many factors, so we’ve listed 
