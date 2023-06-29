@@ -54,6 +54,7 @@ Do these 7 things now to greatly improve your ability to respond to any cyber cr
 
 Your company should have a comprehensive plan in place that outlines the steps to be taken in the event of a cyber attack or breach. This plan should include clear roles and responsibilities for responding to an incident, as well as contact information for key stakeholders and outside experts.
 
+
 **2. Ensure you are logging the correct events:**
 
 I have worked thousands of incidents, and I have never seen an organization that is logging all the data sources that would have been extremely helpful for the detection and/or response. Often this is because they simply do not know what to log, or the expense of logging is something hey have not tackled (or received approval for) yet. Having a logging plan is essential, as a security leader, you can’t keep going back to get more budget as new applications, services, networks, or assets are introduced to your environment.  These costs need to be built into the project BEFORE it was implemented. At the very basic level, you need to be logging the following areas, retained for at least 90 days:
@@ -81,19 +82,25 @@ Keeping all software and systems up-to-date with the latest security patches and
 * If you installed it, update it.
 * If you no longer need it, remove it.
 
+
 **4. Conduct regular security assessments:** 
 
 Regular security assessments can help identify vulnerabilities in your systems before they are exploited. This can include regular penetration testing, vulnerability scans, and security audits.
+
 
 **5. Train employees:** 
 
 Regular training for all employees on cybersecurity best practices and the importance of data privacy is crucial. This will not only raise awareness about potential risks, but also help prevent incidents from happening in the first place.
 
+
 **6. Establish partnerships:** 
 
 Establishing partnerships with outside experts, such as cybersecurity firms or incident response teams, can provide additional support and expertise in the event of a crisis. Having these relationships in place before an incident occurs can help ensure a rapid and effective response.
 
+
 **7. Understand what your Cyber Insurance Covers (and does not cover):**
+
+
 
 Read More on the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md)
 
