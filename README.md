@@ -53,8 +53,7 @@ Then we will discuss how to test your IR capablity to validate that everything i
 
 ### 1. Develop an Incident Response Plan and exercise it:
 
-Your company should have a comprehensive plan in place that outlines the steps to be taken in the event of a cyber attack or breach. This plan should include clear roles and responsibilities for responding to an incident, as well as contact information for key stakeholders and outside experts.
-A well-written Incident Response Plan (IRP) should cover several key components to ensure an effective and coordinated response to cyber incidents. Here are some of the most important components to include:
+Your company should have a comprehensive plan in place that outlines the steps to be taken in the event of a cyber attack or breach. A Awesome Incident Response Plan (IRP) should cover several key components to ensure an effective and coordinated response to cyber incidents. Here are some of the most important components to include:
 
 * Purpose and Scope:
 Clearly define the purpose and scope of the IRP. Outline the objectives, goals, and intended audience of the plan. Specify the types of incidents covered and any specific exclusions.
