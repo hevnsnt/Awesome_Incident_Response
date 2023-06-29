@@ -29,16 +29,16 @@ If you believe that a community driven, open-sourced, and validated "Awesome Inc
 </p>
 
 ## Contents
-- [1. Preparation](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#preparation)
-- [2. Identification](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#Identifcation)
-- [3. Containment](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#containment)
-- [4. Eradication](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#eradication)
-- [5. Recovery](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#recovery)
-- [6. Lessions Learned](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#lessons-learned)
+- [Preparation](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#preparation)
+- [Identification](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#Identifcation)
+- [Containment](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#containment)
+- [Eradication](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#eradication)
+- [Recovery](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#recovery)
+- [Lessions Learned](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#lessons-learned)
 - [Tools Index](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#tools-index)
 
 ---
-## 1. Preparation
+## Preparation
 Oh preparation, the most likely of all steps to be skipped, and only gets attention after the company suffered substantial losses and had to hire external consultants.
 
 **DO NOT SKIP THIS STEP**
@@ -93,7 +93,7 @@ Read More on the [Preparation Chapter](./chapters/1%20-%20Preparation/preparatio
 
 ---
 
-## 2. Identifcation
+## Identifcation
 Before we _Declare_ an incident, we need to identify the severity and impact of a security _event_. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the _correct things_ in your environment to quickly detect events as they occur in your environment.
 
 Being able to fully understand the scope of a security incident, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?.  All of these can be answered with an Awesome Logging strategy.  The following is a good starting point of systems that should be logged, and logs should be located on a separate system and retained for at least 90 days.
@@ -114,28 +114,28 @@ Read More on the [Identification Chapter](./chapters/2%20-%20Identification/iden
 
 ---
 
-## 3. Containment
+## Containment
 The "containment" phase of incident response refers to the stage in which the primary objective is to limit the impact and scope of a security incident or breach. During this phase, the incident response team works swiftly to prevent further damage, isolate affected systems or areas, and mitigate the immediate risks associated with the incident. The containment phase is crucial in minimizing the potential harm caused by the incident and laying the foundation for subsequent recovery and remediation efforts.
 
 Read More on the [Containment Chapter](./chapters/3%20-%20Containment/containment.md)
 
 ---
 
-## 4. Eradication
+## Eradication
 The "eradication" phase of incident response is the stage where the incident response team focuses on completely removing the cause of the security incident or breach from the affected systems and infrastructure. The objective is to eliminate any remnants of the attacker's presence and ensure that the environment is secure and free from vulnerabilities that could be exploited in the future. The eradication phase typically follows the containment phase and precedes the recovery and lessons learned phases.
 
 Read More on the [Eradication Chapter](./chapters/4%20-%20Eradication/eradication.md)
 
 ---
 
-## 5. Recovery
+## Recovery
 The "recovery" phase of incident response refers to the stage where the focus shifts towards restoring normal business operations and returning the affected systems, networks, and data to a fully functional and secure state. The recovery phase follows the containment and eradication phases and involves activities aimed at recovering from the impact of the incident and minimizing any disruption caused to the organization. Often companies move to the recovery phase before Containment and Eradication are complete, leading to ineffective incient response and delaying a normal operating state. Do not make this mistake.
 
 Read More on the [Recovery Chapter](./chapters/5%20-%20Recovery/recovery.md)
 
 ---
 
-## 6. Lessons Learned
+## Lessons Learned
 The "lessons learned" phase of incident response is a crucial step that occurs after the incident has been resolved and normal operations have been restored. This phase focuses on reflecting on the incident response process and identifying valuable insights, improvements, and best practices to enhance future incident response efforts. The primary goal is to learn from the incident, prevent similar incidents from occurring in the future, and strengthen the overall security posture of the organization.
 
 Read More on the [Lessons Learned Chapter](./chapters/6%20-%20Lessons%20Learned/lessonslearned.md)
