@@ -42,6 +42,7 @@ If you believe that a community driven, open-sourced, and validated "Awesome Inc
 Oh preparation, the most likely of all steps to be skipped, and only gets attention after the company suffered substantial losses and had to hire external consultants.
 
 **DO NOT SKIP THIS STEP**
+
 **Please, do it now. You will thank me later when you do not need to hire me to help you respond to an incident.**
 
 Effective Incident Response happens _BEFORE_ an incident occurs. Preparation is EASY AND FUN. By preparing before a crisis occurs, you can minimize the damage and ensure a quick response when faced with an attack. 
