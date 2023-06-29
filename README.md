@@ -114,6 +114,7 @@ Establishing partnerships with outside experts, such as cybersecurity firms or i
 
 
 ### 7. Understand what your Cyber Insurance Covers (and does not cover):
+Most incident responders are technical, Awesome Incident Responders understand that a cyber incident is a Company risk. Therefore, knowing what your cyber insurance covers helps you align your incident response planning accordingly. It allows you to understand the resources and services available through your policy, such as access to incident response teams, forensic investigations, legal support, and public relations assistance. I have been a part of several incidents, where the "boots on ground" team had to stop all incident response actions, because the Cyber Insurance required their IR team to perform all actions. Knowing this prior to an incident would have helped dramatically, reduced re-work, and shortened the timeline to mitigation. This understanding ensures that your incident response plan considers the available coverage and leverages the insurance-provided resources effectively.
 
 
 Read More on the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md)
