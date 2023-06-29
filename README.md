@@ -30,7 +30,7 @@ If you believe that a community driven, open-sourced, and validated "Awesome Inc
 
 ## Contents
 - [Preparation](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#preparation)
-- [Identification](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#identification)
+- [Identification](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#Identifcation)
 - [Containment](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#containment)
 - [Eradication](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#eradication)
 - [Recovery](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#recovery)
