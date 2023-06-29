@@ -65,7 +65,7 @@ Establish a framework for categorizing and classifying incidents based on their 
 * **Incident Detection and Reporting:**
 Define procedures for detecting and reporting incidents. Describe the methods and tools used for monitoring, including intrusion detection systems, log analysis, and threat intelligence feeds. Specify how incidents should be reported and to whom.
 * **Incident Response Procedures:**
-Provide detailed step-by-step procedures for responding to different types of incidents. Include specific actions, timelines, and decision-making criteria. Outline the process for incident triage, containment, eradication, and recovery.
+Provide detailed step-by-step procedures for responding to different types of incidents. Reference external "Runbooks" that include specific actions, timelines, and decision-making criteria. Outline the process for incident triage, containment, eradication, and recovery.
 * **Communication and Notification:**
 Establish communication channels and protocols for internal and external stakeholders. Clearly define who should be notified during an incident and at what stage. Specify the methods and frequency of communication, including reporting templates and escalation procedures.
 * **Resources and Contacts:**
