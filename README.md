@@ -58,20 +58,7 @@ Your company should have a comprehensive plan in place that outlines the steps t
 
 **2. Ensure you are logging the correct events:**
 
-I have worked thousands of incidents, and I have never seen an organization that is logging all the data sources that would have been extremely helpful for the detection and/or response. Often this is because they simply do not know what to log, or the expense of logging is something hey have not tackled (or received approval for) yet. Having a logging plan is essential, as a security leader, you can’t keep going back to get more budget as new applications, services, networks, or assets are introduced to your environment.  These costs need to be built into the project BEFORE it was implemented. At the very basic level, you need to be logging the following areas, retained for at least 90 days:
-
-* Authentication (Active Directory, Identity Providers, Application, CASB, etc.) If a user logs into it, you should have that log.
-* Firewalls
-* Proxy / Webfiltering Solutions (DNS)
-* Security Tools (IDS/IPS, DLP, Zeek, etc.)
-* VPN Connections
-* Anti-Malware / EDR
-* Endpoint Command Line (Often overlooked, but is a GOLDMINE for Awesome Incident Response)
-* DHCP
-* Email Filtering / Spam Filtering
-* Webservers / Application servers
-* Servers (Cloud and On-prem)
-
+I have worked thousands of incidents, and I have never seen an organization that is logging all the data sources that would have been extremely helpful for the detection and/or response. Often this is because they simply do not know what to log, or the expense of logging is something hey have not tackled (or received approval for) yet. Having a logging plan is essential, as a security leader, you can’t keep going back to get more budget as new applications, services, networks, or assets are introduced to your environment.  These costs need to be built into the project BEFORE it was implemented. At the very basic level, you need to be logging the the most critical areas of your environment, and these logs should be located on a separate system and retained for at least 90 days. For a indepth discussion about logging, see the Identification Chapter](./chapters/2%20-%20Identification/identification.md)
 
 **3. Regularly update software and systems:** 
 
@@ -108,6 +95,20 @@ Read More on the [Preparation Chapter](./chapters/1%20-%20Preparation/preparatio
 
 ## Identifcation
 Before we _Declare_ an incident, we need to identify the severity and impact of a security _event_. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the _correct things_ in your environment to quickly detect events as they occur in your environment.
+
+Being able to fully understand the scope of a security incidenty, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?.  All of these can be answered with an Awesome Logging strategy.  The following is a good starting point of systems that should be logged, and logs should be located on a separate system and retained for at least 90 days.
+
+* Authentication (Active Directory, Identity Providers, Application, CASB, etc.) If a user logs into it, you should have that log.
+* Firewalls
+* Proxy / Webfiltering Solutions (DNS)
+* Security Tools (IDS/IPS, DLP, Zeek, etc.)
+* VPN Connections
+* Anti-Malware / EDR
+* Endpoint Command Line (Often overlooked, but is a GOLDMINE for Awesome Incident Response)
+* DHCP
+* Email Filtering / Spam Filtering
+* Webservers / Application servers
+* Servers (Cloud and On-prem)
 
 Read More on the [Identification Chapter](./chapters/2%20-%20Identification/identification.md)
 
