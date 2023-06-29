@@ -56,27 +56,27 @@ Then we will discuss how to test your IR capablity to validate that everything i
 
 Your company should have a comprehensive plan in place that outlines the steps to be taken in the event of a cyber attack or breach. An Awesome Incident Response Plan (IRP) should cover several key components to ensure an effective and coordinated response to cyber incidents. Here are some of the most important components to include:
 
-* Purpose and Scope:
+* **Purpose and Scope:**
 Clearly define the purpose and scope of the IRP. Outline the objectives, goals, and intended audience of the plan. Specify the types of incidents covered and any specific exclusions.
-* Roles and Responsibilities:
+* **Roles and Responsibilities:**
 Identify the key roles and responsibilities of the incident response team members and other stakeholders. This should include the CISO, incident commander, IT staff, legal counsel, public relations, and any external entities involved in the response by name, with contact information.
-* Incident Categorization and Classification:
+* **Incident Categorization and Classification:**
 Establish a framework for categorizing and classifying incidents based on their severity, impact, and type. This helps in prioritizing and allocating appropriate resources for incident response. It should also specifically state who has the authority to declare an incident (vs. a security event)
-* Incident Detection and Reporting:
+* **Incident Detection and Reporting:**
 Define procedures for detecting and reporting incidents. Describe the methods and tools used for monitoring, including intrusion detection systems, log analysis, and threat intelligence feeds. Specify how incidents should be reported and to whom.
-* Incident Response Procedures:
+* **Incident Response Procedures:**
 Provide detailed step-by-step procedures for responding to different types of incidents. Include specific actions, timelines, and decision-making criteria. Outline the process for incident triage, containment, eradication, and recovery.
-* Communication and Notification:
+* **Communication and Notification:**
 Establish communication channels and protocols for internal and external stakeholders. Clearly define who should be notified during an incident and at what stage. Specify the methods and frequency of communication, including reporting templates and escalation procedures.
-* Resources and Contacts:
+* **Resources and Contacts:**
 Compile a list of internal and external resources required during incident response. This includes contact details for key personnel, service providers, law enforcement, incident response teams, and legal counsel. Include information on system inventories, network diagrams, and technical documentation.
-* Legal and Regulatory Considerations:
+* **Legal and Regulatory Considerations:**
 Address legal and regulatory requirements related to incident response, including data protection laws, breach notification obligations, and evidence handling procedures. Ensure compliance with relevant industry standards and regulations.
-* Training and Awareness:
+* **Training and Awareness:**
 Outline training and awareness programs for incident response team members and other employees. Provide guidance on recognizing and reporting security incidents, handling sensitive data, and adhering to incident response procedures.
-* Testing and Review:
+* **Testing and Review:**
 Include plans for regular testing and exercising the IRP to ensure its effectiveness. Conduct tabletop exercises, simulations, and penetration testing to validate the plan. Schedule periodic reviews and updates to incorporate lessons learned and emerging threats.
-* Document Retention:
+* **Document Retention:**
 Define the retention and disposal policies for incident-related documentation, including logs, reports, and evidence. Ensure compliance with legal and regulatory requirements.
 
 Remember that an IRP should be a living document, regularly reviewed and updated to reflect changes in the organization's IT environment, emerging threats, and lessons learned from previous incidents. Collaboration and coordination with relevant stakeholders are crucial for maintaining an effective incident response capability, and this document should be reviewed and updated at least yearly.
