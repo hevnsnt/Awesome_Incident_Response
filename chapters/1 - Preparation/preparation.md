@@ -105,10 +105,34 @@ Logs from Virtual Private Networks (VPNs) play a crucial role in cybersecurity a
 * Incident Response and Forensics: In the event of a security incident, VPN logs can be crucial for understanding the nature of the attack, tracing the source, and developing appropriate countermeasures. They play a vital role in forensic investigations, providing valuable insights into the incident.
 
 #### Anti-Malware / EDR
+Suprisingly, Anti-Malware and Endpoint Detection and Response (EDR) logs are kind of a highly-contested component in IR circles.  Some people say "why do I need to see the logs of what it blocked?".  I think quite the opposite. Imagine all the layers in your security stack, the AV/EDR is often your last line of defense, and shows you what made it all the way through. Please keep them, you'll need them. 
+
+* Threat Detection and Identification: These logs record the detection of potential malware or suspicious behavior on endpoints. They provide essential details such as the type of malware detected, the affected files or processes, and the actions taken by the software (e.g., quarantine, deletion).
+* Investigating Incidents: In the event of a security incident, these logs can provide crucial forensic evidence. They can help trace the origin of a malware infection, the systems or data that were affected, the behavior of the malware, and the timeline of the incident.
+* Remediation Efforts: Anti-Malware/EDR logs provide valuable information about the malicious software or actions that have been taken on an infected system. This information can aid in the remediation process by identifying what needs to be cleaned, restored, or patched.
+* Performance Monitoring: Logs can provide insights into the performance of the anti-malware or EDR solution itself, including how often it scans, how many threats it detects, and whether it's up to date. This can help identify any issues with the solution that may need addressing.
+* Regulatory Compliance: Many regulatory frameworks require organizations to have anti-malware controls in place and to be able to demonstrate their effectiveness. Logs from these tools can provide the evidence needed to demonstrate compliance with these requirements.
+* Trend Analysis and Predictive Security: By analyzing these logs over time, security teams can identify trends in threats faced by the organization. This can inform future security measures, such as additional training in specific threat areas.
+* Incident Response and Forensics: Anti-Malware/EDR logs are pivotal in incident response activities as they provide detailed information about the incident, including the type of malware, its behavior, and the affected endpoints. These details are valuable for forensic investigations and help design strategies to prevent similar incidents in the future.
 
 #### Endpoint Command Line (Often overlooked, but is a GOLDMINE for Awesome Incident Response)
+Ooooooooh command line logs.  When we have them the identificaiton phase goes so soothly.  Guess how often we have them?  Normally, this answer would be **NEVER** but over the last couple years, more and more EDR systems have been keeping them.  Thank you!
+
+* Detecting Malicious Activity: Many types of malware and attacks involve the execution of suspicious commands. Monitoring and logging command line activity can help to detect these activities. For instance, certain types of commands, such as those that disable security controls or establish remote connections, may indicate malicious activity.
+* Investigating Incidents: Command-line logs can provide critical forensic evidence in the event of a security incident. They can help trace the actions taken by an attacker, the systems or data that were targeted, and the timeline of the incident.
+* Understanding Attacker Techniques: By examining the command-line activities recorded in the logs, security analysts can gain insights into the techniques, tactics, and procedures (TTPs) used by attackers. This understanding can inform the development of new defensive measures or the enhancement of existing ones.
+* Identifying Insider Threats: Abnormal command line activity can also indicate malicious actions by an insider. For example, a user running commands they typically do not use or do not have the necessary permissions for could suggest an insider threat.
+* Compliance: Certain regulations may require the logging and monitoring of user activities, including command-line activities. Command-line logs can provide evidence needed to demonstrate compliance with these regulatory requirements.
+* Prevention of Future Attacks: Command-line logs offer visibility into the past actions of an attacker, which can be used to prevent similar future attacks. By analyzing these logs, security teams can develop new rules and heuristics to identify similar activities in the future.
+* Incident Response and Forensics: These logs provide granular details about actions performed on an endpoint, which can be critical during incident response and forensic investigations. They help understand the attacker's steps and behavior, aiding in timely remediation and future prevention.
 
 #### DHCP
+* IP Address Tracking: DHCP logs contain information about the allocation of IP addresses within the network. If a security incident occurs, this information can help identify the device involved.
+* Device Identification: DHCP logs often include the MAC address of devices, providing a way to identify a particular device within the network. This can be useful when dealing with rogue devices or tracking down a device involved in a security incident.
+* Identifying Anomalous Activity: Unusual DHCP activity, such as an unexpected surge in IP address requests, can be an indicator of malicious activity. For example, a sudden influx of requests could suggest a Denial of Service (DoS) attack, or the presence of a worm spreading through the network.
+* Network Troubleshooting: DHCP logs can also help in troubleshooting network connectivity issues. They can show if and when a device has been assigned an IP address, which can help identify potential network configuration problems.
+* Compliance: For some industries, logging of DHCP transactions is a requirement for regulatory compliance. For instance, if an audit requires an organization to account for data flow within the network, DHCP logs can provide some of the necessary information.
+* Incident Response and Forensics: DHCP logs are instrumental during a cybersecurity incident response. They help in identifying which devices were assigned which IP addresses at the time of the incident, helping to trace back potential threat actors. They're also important for forensic investigations, offering vital information about the network activities at a specific time.
 
 ### Email Filtering / Spam Filtering
 
