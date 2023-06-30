@@ -11,7 +11,7 @@ This curated list of tools and resources is aimed to help security leaders, anal
 
 **Awesome Incident Response is actively being developed:**
 
-![09](https://progress-bar.dev/09/?title=Completeness) 
+![10](https://progress-bar.dev/10/?title=Completeness) 
 
 [-Bill (hevnsnt)](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/author.md)
 
