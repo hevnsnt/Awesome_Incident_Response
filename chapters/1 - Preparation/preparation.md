@@ -23,7 +23,16 @@ Your company should have a comprehensive plan in place that outlines the steps t
 * **Purpose and Scope:**
 Clearly define the purpose and scope of the IRP. Outline the objectives, goals, and intended audience of the plan. Specify the types of incidents covered and any specific exclusions.
 * **Roles and Responsibilities:**
-Identify the key roles and responsibilities of the incident response team members and other stakeholders. This should include the CISO, incident commander, IT staff, legal counsel, public relations, and any external entities involved in the response by name, with contact information.
+Identify the key roles and responsibilities of the incident response team members and other stakeholders. An Awesome Incident Response Plan will include: 
+    * Incident Response Commander: This person is responsible for overseeing the entire incident response process. They coordinate between different teams, ensure tasks are being completed, make key decisions, and often communicate updates to other stakeholders within the organization.
+    * Security Analysts: These individuals conduct the hands-on work of investigating and remediating the incident. They analyze system logs, network traffic, and other data to determine the nature of the incident, its scope, and the potential damage. They also often handle the technical aspects of containment and eradication.
+    * Forensic Investigators: These specialists gather, preserve, and analyze evidence related to the incident. This often includes creating digital copies of affected systems, recovering deleted files, and performing detailed analysis to determine how the incident occurred.
+    * IT Operations: IT professionals are involved in repairing affected systems, applying patches, and ensuring business continuity as much as possible. They also play a key role in the recovery phase, restoring services to a normal state after the incident has been contained.
+    * Legal Counsel: Legal advisors are essential in incidents where there may be regulatory implications, potential for lawsuits, or law enforcement involvement. They help guide the organization in navigating these complex issues and ensuring legal compliance.
+    * Communications/PR: This team manages communications both within the organization and with external parties such as the media or customers. Their role becomes especially important in significant incidents that affect customers or the public.
+    * Executive Leadership: Depending on the severity of the incident, executives such as the CISO or CEO may be involved in decision-making, particularly decisions that affect the entire organization or its strategic direction.
+    * External Specialists: Depending on the nature of the incident, external specialists might be involved, such as threat intelligence analysts, malware analysts, or third-party cybersecurity firms.
+    * Human Resources: In incidents involving internal actors or that affect employees, HR can play a critical role in handling the personnel-related aspects of the response.
 * **Incident Categorization and Classification:**
 Establish a framework for categorizing and classifying incidents based on their severity, impact, and type. This helps in prioritizing and allocating appropriate resources for incident response. It should also specifically state who has the authority to declare an incident (vs. a security event)
 * **Incident Detection and Reporting:**
