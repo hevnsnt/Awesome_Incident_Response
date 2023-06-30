@@ -48,7 +48,73 @@ Remember that an IRP should be a living document, regularly reviewed and updated
 
 ### 2. Ensure you are logging the correct events:
 
-I have worked thousands of incidents, and I have never seen an organization that is logging all the data sources that would have been extremely helpful for the detection and/or response. Often this is because they simply do not know what to log, or a logging solution is something they have not tackled (or received expense approval for) yet. Having a logging plan is essential, as a security leader you can’t keep going back to get more budget as new applications, services, networks, or assets are introduced to your environment. These costs need to be built into the project BEFORE it was implemented, start that understanding at an executive level now. At the very basic level, you need to be logging the the most critical areas of your environment, and these logs should be located on a separate system and retained for at least 90 days. For a indepth discussion about logging, see the [Identification Chapter](./chapters/2%20-%20Identification/identification.md)
+I have worked thousands of incidents, and I have never seen an organization that is logging all the data sources that would have been extremely helpful for the detection and/or response. Often this is because they simply do not know what to log, or a logging solution is something they have not tackled (or received expense approval for) yet. Having a logging plan is essential, as a security leader you can’t keep going back to get more budget as new applications, services, networks, or assets are introduced to your environment. These costs need to be built into the project BEFORE it was implemented, start that understanding at an executive level now. At the very basic level, you need to be logging the the most critical areas of your environment, and these logs should be located on a separate system and retained for at least 90 days. This is not an authoritative list, but here is a good start on what you should be logging in your environment, and why.
+
+#### Authentication (Active Directory, Identity Providers, Application, CASB, etc.) 
+If a user logs into it, you should have that log. Luckily for us, most of the authentication systems do a pretty good job of this. Authentication logs specifically are a subset of all log data that provide information about attempts to verify identity and access systems. The following are some of the key reasons why logging these authentication systems is important to incident response:
+
+* Identifying Unauthorized Access: Authentication logs record each login attempt to a system, including successful and unsuccessful attempts. These logs can help identify cases where an unauthorized user has gained access to a system, or attempted to do so.
+* Tracking User Behavior: By recording when and where users log in, authentication logs can help identify anomalous behavior that could indicate a security incident. For example, if a user suddenly logs in from an unfamiliar location, or at a strange time, this could indicate that their account has been compromised.
+* Investigating Account Compromise: In the event of a suspected account compromise, authentication logs can provide crucial evidence. They can show when the compromise may have occurred and any actions that were taken by the compromised account.
+* Monitoring Privileged Accounts: Authentication logs are particularly important for tracking the activities of privileged accounts, which have the ability to make significant changes to systems. Any misuse of privileged accounts can have serious consequences, so close monitoring of these accounts is crucial.
+* Validating User Claims: If a user reports a suspected security incident, authentication logs can help validate their claims. For example, if a user believes that they have been locked out of their account, the logs can show whether there have been multiple failed login attempts.
+* Proving Compliance: Many regulatory frameworks require the collection and analysis of authentication logs to prove that only authorized individuals have access to certain information. This can be important for proving compliance with these frameworks and avoiding penalties.
+* Post-Incident Analysis: After an incident has been resolved, authentication logs can be used to perform a post-mortem analysis. This can help to identify how the incident occurred, whether it could have been prevented, and what measures can be put in place to prevent similar incidents in the future.
+
+#### Firewalls
+If a packet can go to it, you should have a log. Firewall logs are a critical component in a comprehensive security strategy and play a vital role in incident response for several reasons:
+
+* Identifying Attack Vectors: Firewall logs can help identify the methods or paths that attackers are using to try to gain unauthorized access to a network. These logs record all incoming and outgoing traffic, so they can show if there are any repeated attempts from a certain IP address or a particular type of traffic that is being blocked frequently.
+* Detecting Unusual Traffic Patterns: Firewall logs can be used to establish a baseline of what is considered 'normal' network traffic. Once this baseline is established, any deviations from this pattern can be easily identified. This could indicate a potential security incident, such as a Distributed Denial of Service (DDoS) attack, data exfiltration, or attempts to exploit a vulnerability.
+* Investigating Security Incidents: When a security incident occurs, firewall logs can provide crucial evidence to help understand the incident. They can show when the incident began, which systems were involved, and what kind of traffic was associated with the incident.
+* Proving Regulatory Compliance: Many regulatory frameworks require organizations to maintain and review their firewall logs regularly. Regular review of firewall logs can show auditors that the organization is monitoring its network traffic and taking steps to prevent unauthorized access.
+* Preventing Future Attacks: By understanding the tactics used in past attacks (which can be gleaned from firewall logs), organizations can better protect themselves against future attacks. They can update firewall rules to block similar traffic in the future, or they can implement additional security measures if necessary.
+* Incident Response and Forensics: Firewall logs often serve as a starting point for incident response activities, providing valuable information about the origin, targets, and nature of an attack. Furthermore, in a forensic investigation, firewall logs help trace back the attacker's steps and actions.
+
+#### Proxy / Webfiltering Solutions (DNS)
+If a user visits a website (or attempts to resolve a DNS name) you should have a log of who did it, when, and from what system. Proxy and web content filter logs are fundamental components in network security, and they play a significant role in incident response and ongoing security operations. Here's why:
+
+* Identifying Malicious Websites or Content: Proxy or web content filter logs can help identify when users have attempted to access potentially harmful websites or download malicious content. These logs record all requests, so they can show if a user has attempted to visit a blacklisted site, or if a particular type of content is being blocked regularly.
+* Detecting Data Exfiltration: Unusually large amounts of data being sent to an external website may be a sign of a data breach. Web content filters and proxies can log these data transfers, and by monitoring these logs, anomalies can be detected and investigated.
+* Monitoring User Behavior: These logs provide insight into user behavior, which can be used to detect potentially suspicious activity. For instance, multiple attempts to access blocked websites or unusual browsing activity could suggest a compromised account or insider threat.
+* Investigating Security Incidents: When a security incident occurs, proxy and web content filter logs can provide valuable information to help understand the event. For example, they can provide details about a phishing attempt or the source of malware.
+* Maintaining Compliance: Regulatory frameworks often require organizations to control and monitor web access and content. Logs from proxies and web content filters can provide the evidence needed to demonstrate compliance with these requirements.
+* Improving Policy: By analyzing web content filter logs, organizations can gain insight into the types of websites and content users are attempting to access. This can inform decisions about which sites should be blocked or allowed, helping to improve the organization's web use policy.
+* Incident Response and Forensics: In incident response, these logs help identify the origin, nature, and timeline of an attack. During forensic investigations, they can reveal the attacker's steps and behavior patterns, helping to remediate the issue and prevent future incidents.
+
+#### Security Tools (IDS/IPS, DLP, Zeek, etc.)
+
+* Threat Detection: IDS, IPS, and DLP systems monitor network and system activities for malicious actions or policy violations. Logs from these tools provide information about detected threats, helping security teams to quickly identify and respond to potential security incidents.
+* Incident Investigation: In the event of a security incident, logs from these tools can provide crucial forensic evidence. They can help trace the origin of an attack, the systems or data that were targeted, the tactics used by the attacker, and the timeline of the incident.
+* Preventing Future Attacks: By analyzing the logs, security teams can gain insights into the tactics and techniques used by attackers. This information can be used to improve the organization's defenses and prevent similar attacks in the future.
+* Regulatory Compliance: Many regulatory frameworks require organizations to monitor their systems for potential security threats. Logs from IDS, IPS, and EDR tools can provide the evidence needed to demonstrate compliance with these regulations.
+* Performance Tuning: Logs from these systems can help to identify performance issues or false positives/negatives. This can help security teams to adjust the system settings or update the rules to improve performance and accuracy.
+* Alerting: Security logs can be used to generate alerts for suspicious activity, allowing security teams to respond promptly to potential threats. They can also be set to trigger automatic responses, such as blocking a suspicious IP address or quarantining a compromised system.
+* Maintaining Security Posture: The continuous monitoring and logging of these tools help organizations maintain a strong security posture by keeping track of potential threats and malicious activities.
+* Incident Response and Forensics: The logs from these tools provide valuable insights into the specifics of a cyber attack, often serving as a starting point for incident response activities. They play a pivotal role in forensic investigations, helping to understand the attacker's steps and behavior.
+
+#### VPN Connections
+Logs from Virtual Private Networks (VPNs) play a crucial role in cybersecurity and incident response. Here's why:
+
+* User Authentication: VPN logs provide a record of every user who has attempted to access the network, including both successful and unsuccessful attempts. This data can be used to identify unauthorized access attempts or to verify user claims.
+* Location Tracking: VPNs usually log the IP address that a user is connecting from. This information can be useful for identifying where users are accessing the network from, and if there are any unexpected or unauthorized access attempts from unfamiliar locations.
+* Session Duration: By logging how long users are connected to the VPN, organizations can identify any unusual patterns, such as connections that last for unusually long periods, which might suggest a system has been compromised.
+* Bandwidth Usage: Monitoring the amount of data sent over a VPN connection can help identify potential data breaches. A sudden increase in data being sent over a VPN could indicate data exfiltration.
+* Troubleshooting: VPN logs can be useful for identifying the cause of technical issues. For instance, if users are experiencing slow connection speeds or are unable to connect, the logs can be checked for potential reasons.
+* Compliance: Many regulatory frameworks require companies to log access to their network for auditing purposes. VPN logs can provide evidence of compliance with these requirements.
+* Incident Response and Forensics: In the event of a security incident, VPN logs can be crucial for understanding the nature of the attack, tracing the source, and developing appropriate countermeasures. They play a vital role in forensic investigations, providing valuable insights into the incident.
+
+#### Anti-Malware / EDR
+
+#### Endpoint Command Line (Often overlooked, but is a GOLDMINE for Awesome Incident Response)
+
+#### DHCP
+
+### Email Filtering / Spam Filtering
+
+### Webservers / Application servers
+
+### Servers (Cloud and On-prem)
 
 ### 3. Regularly update software and systems: 
 
