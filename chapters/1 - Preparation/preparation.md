@@ -135,10 +135,31 @@ Ooooooooh command line logs.  When we have them the identificaiton phase goes so
 * Incident Response and Forensics: DHCP logs are instrumental during a cybersecurity incident response. They help in identifying which devices were assigned which IP addresses at the time of the incident, helping to trace back potential threat actors. They're also important for forensic investigations, offering vital information about the network activities at a specific time.
 
 ### Email Filtering / Spam Filtering
+* Detecting Malicious Content: Email filters log messages that are marked as spam, contain malware, or fit other configured detection rules. These logs can provide insights into the types of malicious content that are being sent to users and how effective the filtering rules are.
+* Tracking Phishing Attempts: Email filters often include features to detect phishing attempts, which are then logged. If a user reports a suspicious email, these logs can be used to verify whether it was marked as phishing and whether similar emails are being sent to other users.
+* Investigating Data Breaches: If an organization suffers a data breach, email filtering logs can be used to help determine if the breach was the result of a malicious email. They can also provide information on who received and interacted with the email.
+* Improving Filtering Rules: By regularly reviewing email filtering logs, organizations can improve their detection and filtering rules. For instance, if a particular type of phishing email is consistently making it through the filter, the logs can provide insights into why this is happening.
+* Compliance: Some regulations require companies to take reasonable measures to protect against threats delivered via email. Email filtering logs can provide evidence of these protective measures.
+* Incident Response and Forensics: In incident response, email filtering logs can provide crucial information about the origin and nature of the malicious email, and the targeted individuals. For forensic investigations, these logs help in understanding the timeline and the impact of the incident.
 
 ### Webservers / Application servers
+* Identifying Malicious Activity: Web server logs record all requests made to the server. This includes requests that are associated with known malicious activity, such as SQL injection or cross-site scripting attacks. By examining these logs, it's possible to identify such attacks and take appropriate action.
+* Incident Investigation: If a security incident occurs, web server logs can provide valuable forensic information. They can show what requests were made, when, and by whom. This can help determine the origin of an attack, what the attacker accessed or attempted to access, and how they interacted with the server.
+* Tracking User Activity: Web server logs can be used to track user activity on the site. This can help identify any unusual behavior, such as repeated login attempts, that might indicate a security threat.
+* Error Detection: These logs often record server errors. By examining these errors, it may be possible to identify potential security vulnerabilities that need to be addressed. For instance, repeated errors could suggest an ongoing attack or a part of your system that needs patching.
+* Performance Monitoring: By reviewing the web server logs, you can monitor the load on the server and how quickly it's able to respond to requests. This can provide valuable information about the server's performance, which could be useful for identifying potential denial of service (DoS) attacks.
+* Regulatory Compliance: Certain regulations require businesses to keep detailed logs of activity on their web servers. These logs can provide the necessary documentation to demonstrate compliance during an audit.
+* Incident Response and Forensics: Web server logs are vital during a cybersecurity incident response, helping to identify the root cause, understand the nature of the attack, and create a timeline of the incident. During forensic investigations, they provide essential details that help understand the attacker's tactics and behavior, which aids in future prevention.
+
 
 ### Servers (Cloud and On-prem)
+* Detecting Unauthorized Access: Cloud server logs record all attempts to access the server, both successful and unsuccessful. Unusual access patterns, such as login attempts from unfamiliar locations or at odd times, could indicate unauthorized access attempts.
+* Incident Investigation: In the event of a security incident, cloud server logs provide crucial evidence that can help trace the source of the attack, the systems or data that were targeted, and the timeline of the incident.
+* Monitoring User Activity: Cloud server logs provide visibility into the activities of users and applications within the cloud environment. This can help identify any unusual or potentially malicious behavior.
+* Resource Usage: Cloud server logs provide detailed information about resource usage, such as CPU, memory, and network bandwidth. An unexpected spike in resource usage could indicate a potential security issue, such as a denial of service (DoS) attack or a compromised server running a malicious workload.
+* Configuration Changes: Logs record changes made to the server or application configurations. Unapproved or malicious changes are often a sign of a security incident and can provide clues for investigators during a security incident.
+* Compliance and Auditing: Many regulatory frameworks require organizations to maintain logs of activities in their IT environments, including the cloud. Cloud server logs can provide the necessary documentation to demonstrate compliance with these regulations.
+* Incident Response and Forensics: In the event of a cybersecurity incident, cloud server logs are instrumental for incident response and forensic investigations. They help in understanding the incident, identifying affected systems, tracing back the attacker's actions, and aiding in the timely resolution and recovery from the incident.
 
 ### 3. Regularly update software and systems: 
 
