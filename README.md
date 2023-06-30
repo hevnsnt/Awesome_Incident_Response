@@ -82,7 +82,7 @@ Regular training for all employees on cybersecurity best practices and the impor
 
 ### 6. Establish partnerships:
 
-Establishing partnerships with outside experts, such as cybersecurity firms or incident response teams, can provide additional support and expertise in the event of a crisis. Having these relationships in place before an incident occurs can help ensure a rapid and effective response.
+Establishing partnerships with outside experts, such as cybersecurity firms or incident response teams, can provide additional support and expertise in the event of a crisis. Having these relationships in place before an incident occurs can help ensure a rapid and effective response. Right now is a good time to setup an Incident Response Retainer with an IR Firm. It can be exceedingly difficult to retain help during an incident (sometimes it can take months to get the right resources), so the sooner you have that done the better. But before you do this, please make sure you understand what your Cyber Insurance covers (and does not cover).
 
 
 ### 7. Understand what your Cyber Insurance Covers (and does not cover):
