@@ -75,7 +75,7 @@ Regular security assessments can help identify vulnerabilities in your systems b
 This isn't the Awesome Vulnerability Managment plan, so I will spare you the details. But if you want less incident response (reactive) and are looking for a proactive solution, well please patch your systems, and test them often.
 
 
-### 5. Train employees:
+### 5. Train employees and setup a Secure Communications Channel:
 
 As it pertains to Awesome Incident Response, you need to train your employees how to report security incidents, and train those individuals that have a incident response responsiblity (listed above) on their specific roles. I am trying to keep this guide focused on IR, but regular training for all employees on cybersecurity best practices and the importance of data privacy is crucial. This will not only raise awareness about potential risks, but also help prevent incidents from happening in the first place.
 
