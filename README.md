@@ -48,6 +48,7 @@ Awesome Incident Response happens _BEFORE_ an incident occurs. Preparation is EA
 Also, you will look like a super hero!
 
 > The basic premise of incident management is to respond to an incident in a structured way. Large-scale incidents can be confusing; a structure that teams agree on beforehand can reduce chaos. Formulating rules about how to communicate and coordinate your efforts before disaster strikes allows your team to concentrate on resolving an incident when it occurs. If your team has already practiced and familiarized themselves with communication and coordination, they don’t need to worry about these factors during an incident.
+> 
 > --  [Google, Incident Response](https://sre.google/workbook/incident-response/)
 
 Awesome Incident Response requires a collaboration across multiple teams, this is not only for IT & Security (surprise!). Any major cyber-incident is a Company-wide crisis, and will require support from Executives, Legal, Communications, HR, Disaster Recovery, IT Operations, Development, and Security. Make sure these people know their role during an incident, and have the authority to act.
