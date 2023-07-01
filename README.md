@@ -61,7 +61,7 @@ After you have a plan, Exercise it!  There is a saying "Train like you fight, Fi
 
 ### 2. Ensure you are logging the correct events:
 
-I have worked thousands of incidents, and I have never seen an organization that is logging all the data sources that would have been extremely helpful for the detection and/or response. Often this is because they simply do not know what to log, or a logging solution is something they have not tackled (or received expense approval for) yet. Having a logging plan is essential, as a security leader you can’t keep going back to get more budget as new applications, services, networks, or assets are introduced to your environment. These costs need to be built into the project BEFORE it was implemented, start that understanding at an executive level now. At the very basic level, you need to be logging the the most critical areas of your environment, and these logs should be located on a separate system and retained for at least 90 days. For a indepth discussion about logging, see the Logging section of the  [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md#2-ensure-you-are-logging-the-correct-events)
+I have worked thousands of incidents, and I have never seen an organization that is logging all the data sources that would have been extremely helpful for the detection and/or response. Often this is because they simply do not know what to log, or a logging solution is something they have not tackled (or received expense approval for) yet. Having a logging plan is essential, as a security leader you can’t keep going back to get more budget as new applications, services, networks, or assets are introduced to your environment. These costs need to be built into the project BEFORE it was implemented, start that understanding at an executive level now. At the very basic level, you need to be logging the the most critical areas of your environment, and these logs should be located on a separate system and retained for at least 90 days. For a indepth discussion about logging, see the Logging section of the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md#2-ensure-you-are-logging-the-correct-events)
 
 ### 3. Regularly update software and systems: 
 
@@ -79,7 +79,7 @@ This isn't the Awesome Vulnerability Managment plan, so I will spare you the det
 
 As it pertains to Awesome Incident Response, you need to train your employees how to report security incidents, and train those individuals that have a incident response responsiblity (listed above) on their specific roles. I am trying to keep this guide focused on IR, but regular training for all employees on cybersecurity best practices and the importance of data privacy is crucial. This will not only raise awareness about potential risks, but also help prevent incidents from happening in the first place.
 
-Now would be a good time to identify a secure messaging channel, it is my recommendation that during the initial phases of an incident, to not use any corporate messaging solutions.  I recommend [Signal](https://signal.org). Have every person identified as an Incident Response Team member have it installed and tested. When you have an incident, create a new group chat, with a codename related to the incident, and have the messages delete after 1 week. Often as the incident is spinning up, you are not confident on the full scope of the incident, and mistakes are made. Taking these actions will protect against the threat actor having inside information and after the fact legal discovery activities.
+Now would be a good time to identify a secure messaging channel, it is my recommendation that during the initial phases of an incident, to not use any corporate messaging solutions.  I recommend [Signal](https://signal.org). Have every person identified as an Incident Response Team member ensure it is installed and tested. When you have an incident, create a new group chat with a codename related to the incident, and have the messages delete after 1 week. Often as the incident is spinning up, you are not confident on the full scope of the incident, and mistakes are made. Taking these actions will protect against the threat actor having inside information and legal discovery activities, but check with your legal team before you do this.
 
 
 ### 6. Establish partnerships:
@@ -93,21 +93,11 @@ Most incident responders are technical, Awesome Incident Responders understand t
 ---
 
 ## Identifcation
-Before we _Declare_ an incident, we need to identify the severity and impact of a security _event_. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the _correct things_ in your environment to quickly detect events as they occur in your environment.
+Before we _Declare_ an incident, we need to identify the severity and impact of a security _event_. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the _correct things_ in your environment to quickly detect events as they occur in your environment. That said, Identification is much more than monitoring, I like to think of it as identifying all of the "Indicators of Compromise" as it pertains to the incident at hand.
 
-Being able to fully understand the scope of a security incident, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?.  All of these can be answered with an Awesome Logging strategy.  The following is a good starting point of systems that should be logged, and logs should be located on a separate system and retained for at least 90 days.
+Being able to fully understand the scope of a security incident, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?.  All of these can be answered with an Awesome Logging strategy.  The logging section of the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md#2-ensure-you-are-logging-the-correct-events) is a good starting point of systems that should be logged.
 
-* Authentication (Active Directory, Identity Providers, Application, CASB, etc.) If a user logs into it, you should have that log.
-* Firewalls
-* Proxy / Webfiltering Solutions (DNS)
-* Security Tools (IDS/IPS, DLP, Zeek, etc.)
-* VPN Connections
-* Anti-Malware / EDR
-* Endpoint Command Line (Often overlooked, but is a GOLDMINE for Awesome Incident Response)
-* DHCP
-* Email Filtering / Spam Filtering
-* Webservers / Application servers
-* Servers (Cloud and On-prem)
+
 
 Read More on the [Identification Chapter](./chapters/2%20-%20Identification/identification.md)
 
