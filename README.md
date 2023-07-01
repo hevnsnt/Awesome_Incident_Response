@@ -19,7 +19,7 @@ This curated list of tools and resources is aimed to help security leaders, anal
 
 If you believe that a community driven, open-sourced, and validated "Awesome Incident Response" resource is valuable for the internet to reference, please consider supporting this project. You can find more information for supporting the project in the right-sidebar.  Anything you contribute is greatly appreciated and goes 100% to supporting this project!
 
-![10](https://progress-bar.dev/10/?title=Completeness)  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhevnsnt%2FAwesome_Incident_Response&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)  [![](https://img.shields.io/github/sponsors/hevnsnt?label=Sponsor&logo=GitHub)](https://github.com/sponsors/hevnsnt)  
+![18](https://progress-bar.dev/18/?title=Completeness)  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhevnsnt%2FAwesome_Incident_Response&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)  [![](https://img.shields.io/github/sponsors/hevnsnt?label=Sponsor&logo=GitHub)](https://github.com/sponsors/hevnsnt)  
 
 ---
 <p align="center">
