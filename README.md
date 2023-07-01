@@ -65,7 +65,7 @@ I have worked thousands of incidents, and I have never seen an organization that
 
 ### 3. Regularly update software and systems: 
 
-Keeping all software and systems up-to-date with the latest security patches and upgrades is essential. This includes not just operating systems, but also any applications and devices connected to the network. There should be a documented policy stating timelines for Critical, High, Medium, and Low severity software patches, with a documented exception process. Leverage asset tracking systems and your regular security assessments to validate that this process is working as intended. The [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md) goes into more detail on how to develop an Awesome vulnerability management program.
+Keeping all software and systems up-to-date with the latest security patches and upgrades is essential. This includes not just operating systems, but also any applications and devices connected to the network. There should be a documented policy stating timelines for Critical, High, Medium, and Low severity software patches, with a documented exception process. Leverage asset tracking systems and your regular security assessments to validate that this process is working as intended. While I don't go into great detail in this guide, having a process for identifying vulnerabilities, deploying software updates, and regularly testing will go a long way to never having to leverage your incident response plan.
 
 
 ### 4. Conduct regular security assessments:
