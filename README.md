@@ -58,7 +58,7 @@ Then we will discuss how to test your IR capablity to validate that everything i
 
 ### 1. Develop an Incident Response Plan and exercise it:
 
-Your company should have a comprehensive plan in place that outlines the steps to be taken in the event of a cyber attack or breach. An Awesome Incident Response Plan (IRP) should cover several key components to ensure an effective and coordinated response to cyber incidents. The [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md) goes into much more detail of what should be included in your Awesome Incident Response Plan (IRP)
+Your company should have a comprehensive plan in place that outlines the steps to be taken in the event of a cyber attack or breach. An Awesome Incident Response Plan (IRP) should cover several key components to ensure an effective and coordinated response to cyber incidents. The Incident Response Plan section of the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md#1-develop-an-incident-response-plan-and-exercise-it) goes into much more detail of what should be included in your Awesome Incident Response Plan (IRP)
 
 After you have a plan, Exercise it!  There is a saying "Train like you fight, Fight like you trained" (or something like that). Run a table top exercise and validate the controls you put into place are working as you expected! Trust me you will find something that needs some adjustment.  Need a place to start for a TTX idea? Go visit [@badthingsdaily](https://twitter.com/badthingsdaily) and pick something that might happen to you!
 
