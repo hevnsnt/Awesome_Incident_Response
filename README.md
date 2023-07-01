@@ -51,6 +51,11 @@ Awesome Incident Response requires a collaboration across multiple teams, this i
 This section describes how to ensure that you have the right people, capbabilities, authorities, and processes in place in order to effectively respond to a crisis. 
 Then we will discuss how to test your IR capablity to validate that everything is working as expected.
 
+> The basic premise of incident management is to respond to an incident in a structured way. Large-scale incidents can be confusing; a structure that teams agree on beforehand can reduce chaos. Formulating rules about how to communicate and coordinate your efforts before disaster strikes allows your team to concentrate on resolving an incident when it occurs. If your team has already practiced and familiarized themselves with communication and coordination, they don’t need to worry about these factors during an incident.
+> --  [Google, Incident Response](https://sre.google/workbook/incident-response/)
+
+
+
 ### Do these 7 things now to greatly improve your ability to respond to any cyber crisis:
 
 ### 1. Develop an Incident Response Plan and exercise it:
