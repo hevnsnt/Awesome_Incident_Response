@@ -70,13 +70,14 @@ Keeping all software and systems up-to-date with the latest security patches and
 
 ### 4. Conduct regular security assessments:
 
-Regular security assessments can help identify vulnerabilities in your systems before they are exploited. This can include regular penetration testing, vulnerability scans, and security audits.
-At the least, Vulnerability Scanning should happen monthly, with each asset on your network being scanned at least once every quarter. Penetration testing should occur at least yearly. 
+Regular security assessments can help identify vulnerabilities in your systems before they are exploited. This can include regular penetration testing, vulnerability scans, and security audits. At the least, Vulnerability Scanning should happen monthly, with each asset on your network being scanned at least once every quarter. Penetration testing should occur at least yearly.
+
+This isn't the Awesome Vulnerability Managment plan, so I will spare you the details. But if you want less incident response (reactive) and are looking for a proactive solution, well please patch your systems, and test them often.
 
 
 ### 5. Train employees:
 
-Regular training for all employees on cybersecurity best practices and the importance of data privacy is crucial. This will not only raise awareness about potential risks, but also help prevent incidents from happening in the first place.
+As it pertains to Awesome Incident Response, you need to train your employees how to report security incidents, and train those individuals that have a incident response responsiblity (listed above) on their specific roles. I am trying to keep this guide focused on IR, but regular training for all employees on cybersecurity best practices and the importance of data privacy is crucial. This will not only raise awareness about potential risks, but also help prevent incidents from happening in the first place.
 
 
 ### 6. Establish partnerships:
@@ -85,10 +86,7 @@ Establishing partnerships with outside experts, such as cybersecurity firms or i
 
 
 ### 7. Understand what your Cyber Insurance Covers (and does not cover):
-Most incident responders are technical, Awesome Incident Responders understand that a cyber incident is a Company risk. Therefore, knowing what your cyber insurance covers helps you align your incident response planning accordingly. It allows you to understand the resources and services available through your policy, such as access to incident response teams, forensic investigations, legal support, and public relations assistance. I have been a part of several incidents, where the "boots on ground" team had to stop all incident response actions, because the Cyber Insurance required their IR team to perform all actions. Knowing this prior to an incident would have helped dramatically, reduced re-work, and shortened the timeline to mitigation. This understanding ensures that your incident response plan considers the available coverage and leverages the insurance-provided resources effectively.
-
-
-Read More on the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md)
+Most incident responders are technical, Awesome Incident Responders understand that a cyber incident is a Company risk. Therefore, knowing what your cyber insurance covers helps you align your incident response planning accordingly. It allows you to understand the resources and services available through your policy, such as access to incident response teams, forensic investigations, legal support, and public relations assistance. I have been a part of several incidents, where the "boots on ground" team had to stop all incident response actions, because the Cyber Insurance required their IR team to perform all actions. Knowing this prior to an incident would have helped dramatically, reduced re-work, and shortened the timeline to mitigation. This understanding ensures that your incident response plan considers the available coverage and leverages the insurance-provided resources effectively. The [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md#7-understand-what-your-cyber-insurance-covers-and-does-not-cover) goes into more detail on understanding your Cyber Insurance Provider.
 
 ---
 
