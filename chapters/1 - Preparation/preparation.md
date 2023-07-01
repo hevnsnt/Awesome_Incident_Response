@@ -1,4 +1,4 @@
-![35](https://progress-bar.dev/35/?title=Completeness) 
+![60](https://progress-bar.dev/60/?title=Completeness) 
 
 !!STILL UNDER DEVELOPMENT!!
 # Preparation
@@ -218,10 +218,12 @@ Keeping all software and systems up-to-date with the latest security patches and
 Regular security assessments can help identify vulnerabilities in your systems before they are exploited. This can include regular penetration testing, vulnerability scans, and security audits.
 At the least, Vulnerability Scanning should happen monthly, with each asset on your network being scanned at least once every quarter. Penetration testing should occur at least yearly. 
 
+This isn't the Awesome Vulnerability Managment plan, so I will spare you the details.  But if you want less incident response (reactive) and are looking for a proactive solution, well please patch your systems, and test them often.
+
 
 ### 5. Train employees:
 
-Regular training for all employees on cybersecurity best practices and the importance of data privacy is crucial. This will not only raise awareness about potential risks, but also help prevent incidents from happening in the first place.
+As it pertains to Awesome Incident Response, you need to train your employees how to report security incidents, and train those individuals that have a incident response responsiblity (listed above) on their specific roles. I am trying to keep this guide focused on IR, but regular training for all employees on cybersecurity best practices and the importance of data privacy is crucial. This will not only raise awareness about potential risks, but also help prevent incidents from happening in the first place.
 
 
 ### 6. Establish partnerships:
