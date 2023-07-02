@@ -72,7 +72,7 @@ I have worked thousands of incidents, and I have never seen an organization that
 Keeping all software and systems up-to-date with the latest security patches and upgrades is essential. This includes not just operating systems, but also any applications and devices connected to the network. There should be a documented policy stating timelines for Critical, High, Medium, and Low severity software patches, with a documented exception process. Leverage asset tracking systems and your regular security assessments to validate that this process is working as intended. While I don't go into great detail in this guide, having a process for identifying vulnerabilities, deploying software updates, and regularly testing will go a long way to never having to leverage your incident response plan.
 
 
-### 4. Conduct regular security assessments, and Third Party Rick Reviews:
+### 4. Conduct regular security assessments, and Third Party Risk Reviews:
 
 Regular security assessments can help identify vulnerabilities in your systems before they are exploited. This can include regular penetration testing, vulnerability scans, and security audits. At the least, Vulnerability Scanning should happen monthly, with each asset on your network being scanned at least once every quarter. Penetration testing should occur at least yearly.
 
