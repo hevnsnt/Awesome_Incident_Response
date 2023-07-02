@@ -72,11 +72,13 @@ I have worked thousands of incidents, and I have never seen an organization that
 Keeping all software and systems up-to-date with the latest security patches and upgrades is essential. This includes not just operating systems, but also any applications and devices connected to the network. There should be a documented policy stating timelines for Critical, High, Medium, and Low severity software patches, with a documented exception process. Leverage asset tracking systems and your regular security assessments to validate that this process is working as intended. While I don't go into great detail in this guide, having a process for identifying vulnerabilities, deploying software updates, and regularly testing will go a long way to never having to leverage your incident response plan.
 
 
-### 4. Conduct regular security assessments:
+### 4. Conduct regular security assessments, and Third Party Rick Reviews:
 
 Regular security assessments can help identify vulnerabilities in your systems before they are exploited. This can include regular penetration testing, vulnerability scans, and security audits. At the least, Vulnerability Scanning should happen monthly, with each asset on your network being scanned at least once every quarter. Penetration testing should occur at least yearly.
 
 This isn't the Awesome Vulnerability Managment plan, so I will spare you the details. But if you want less incident response (reactive) and are looking for a proactive solution, well please patch your systems, and test them often.
+
+Over the past couple of years, a high percentage of the incidents I have worked were because a third-party had lost control of "our" data on "their" systems. You can build the most secure environment and still be working an incident response because a vendor of yours .... didn't. Knowing WHO has WHAT data and access can greatly reduce the time to identify where a security incident originated. If you have extremely critical (or secret) data residing at a 3rd party, ensure that their standards meet yours.  Of course Cloud providers meet this criteria, but expand your thinking to include Law Firms, Accounting, Building Managment, etc. (yikes)
 
 
 ### 5. Train employees and setup a Secure Communications Channel:
