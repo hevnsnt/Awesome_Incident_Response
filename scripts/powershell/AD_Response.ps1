@@ -230,12 +230,12 @@ try {
         LogMessage "Computers added to the domain saved to '$outputDirectory\joined_computers.txt'."
     }
 
-    # Get GPOs created after the selected date and save to "new_gpos.txt"
+    # Get GPOs modified within the last 30 days and save reports to HTML file
     Write-Host ""
-    Write-Host "This section retrieves Group Policy Objects (GPOs) that were created after the specified date and saves the results to '$outputDirectory\new_gpos.txt'. It includes the display name and creation time of each recently created GPO."
-    LogMessage "Retrieving GPOs created after $selectedDate..."
-    if (Test-Permission "Get-GPO -All | Where-Object { $_.CreationTime -ge '$searchDate'} | Select-Object DisplayName, CreationTime | Out-File -FilePath '$outputDirectory\new_gpos.txt'") {
-        LogMessage "GPOs created after the specified date saved to '$outputDirectory\new_gpos.txt'."
+    Write-Host "This section retrieves Group Policy Objects (GPOs) that were modified within the last 60 days and saves the reports to '$outputDirectory\Report.html'. It includes the display name and modification time of each recently modified GPO."
+    LogMessage "Retrieving GPOs modified within the last 60 days..."
+    if (Test-Permission "Get-GPO -All | Where-Object { (Get-Date) - $_.ModificationTime -le (New-TimeSpan -Days 60) } | ForEach-Object { Get-GPOReport -Name $_.DisplayName -ReportType HTML } > '$outputDirectory\Report.html'") {
+        LogMessage "GPO reports for GPOs modified within the last 30 days saved to '$outputDirectory\Report.html'."
     }
 
     # Get inactive users (not logged in for 60 days) and save to "inactive_users.txt"
@@ -259,7 +259,10 @@ try {
     Write-Host ""
     Write-Host "This section retrieves regular user accounts that are enabled and not designated as service accounts. It saves the results to '$outputDirectory\target_accounts.txt', including the username and description of each normal user account."
     LogMessage "Retrieving normal user accounts..."
-    if (Test-Permission "Get-ADUser -Filter {(Enabled -eq $true) -and (Description -notlike '*service*')} | Select-Object SamAccountName, Description | Out-File -FilePath '$outputDirectory\target_accounts.txt'") {
+    $filter = "Enabled -eq `$true -and Description -notlike '*service*'"
+
+    # Use the filter in the Get-ADUser command
+    if (Test-Permission "Get-ADUser -Filter $filter | Select-Object SamAccountName, Description | Out-File -FilePath '$outputDirectory\target_accounts.txt'") {
         LogMessage "Normal user accounts saved to '$outputDirectory\target_accounts.txt'."
     }
 
@@ -275,7 +278,7 @@ try {
     Write-Host ""
     Write-Host "This section retrieves all GPOs and generates an XML report for each GPO. It saves the combined report to '$outputDirectory\gpo_report.xml'. This allows for reviewing any unauthorized modifications made to GPOs."
     LogMessage "Checking for unauthorized changes to GPOs..."
-    if (Test-Permission "Get-GPO -All | ForEach-Object { Get-GPOReport -Name \$_.DisplayName -ReportType XML } | Out-File -FilePath '$outputDirectory\gpo_report.xml'") {
+    if (Test-Permission "Get-GPO -All | ForEach-Object { Get-GPOReport -Name $_.DisplayName -ReportType XML } | Out-File -FilePath '$outputDirectory\gpo_report.xml'") {
         LogMessage "GPO report saved to '$outputDirectory\gpo_report.xml'."
     }
 
