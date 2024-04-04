@@ -1,6 +1,31 @@
-Before we Declare an incident, we need to identify the severity and impact of a security event. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the correct things in your environment to quickly detect events as they occur in your environment.
+The Identify phase is the first critical step in the Incident Response (IR) process. The main purpose of this phase is to recognize that an incident has occurred, to define its nature and scope, and to initiate the incident response process.
 
-Being able to fully understand the scope of a security incident, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?. All of these can be answered with an Awesome Logging strategy. The following is a good starting point of systems that should be logged, and logs should be located on a separate system and retained for at least 90 days.
+Although time is of the esssence, it is critical that before we __Declare an incident__, we identify the severity and impact of a security event. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the correct things in your environment to quickly detect events as they occur in your environment.
+
+In the Identify phase, organizations look for anomalies or suspicious activity that could indicate a security incident. This could include alerts from security systems, reports from users, unexpected system behavior, or results from regular security audits or checks. Being able to fully understand the scope of a security incident, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?. All of these can be answered with an Awesome Logging strategy. The following is a good starting point of systems that should be logged, and logs should be located on a separate system and retained for at least 90 days.
+
+A successful Identify phase involves the following steps:
+
+**Detection:** This involves recognizing potential security events. Detection can happen in several ways, such as through alerts from security systems (like intrusion detection systems or firewalls), abnormal system behavior (like a sudden increase in network traffic), or reports from users or third parties.
+
+**Reporting:** Any suspected incidents should be promptly reported. The reporting mechanism can vary from one organization to another but often involves sending an alert or report to the IT department or the incident response team.
+
+**Assessment:** After a potential incident has been detected and reported, it needs to be assessed to confirm whether it's a real security incident. This may involve analyzing system logs, network traffic, or other evidence.
+
+To do the Identify phase well, organizations should:
+
+Have detection mechanisms in place: This might include security systems like intrusion detection systems, antivirus software, and firewalls, but also measures to monitor system behavior and network traffic.
+
+Train staff to recognize and report incidents: All staff members, not just those in IT, should be trained to recognize potential security incidents and to report them promptly.
+
+Implement regular security checks and audits: Regular security checks and audits can help identify potential security incidents that might not be detected through other means.
+
+Have a clear reporting process: It should be clear to all staff how to report potential security incidents, and there should be clear channels for doing so.
+
+Assess potential incidents promptly and thoroughly: When potential incidents are reported, they should be assessed quickly and thoroughly to determine if they're actual security incidents. This might involve analyzing system logs, network traffic, or other available evidence.
+
+https://github.com/stuhli/awesome-event-ids
+
 
 ### Authentication (Active Directory, Identity Providers, Application, CASB, etc.) 
 If a user logs into it, you should have that log. Luckily for us, most of the authentication systems do a pretty good job of this.  But at a minimum, you should be able to answer these questions:

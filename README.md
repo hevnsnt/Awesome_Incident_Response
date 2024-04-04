@@ -29,7 +29,7 @@ If you believe that a community driven, open-sourced, and validated "Awesome Inc
 
 ## Contents
 - [Preparation](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#preparation)
-- [Identification](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#Identifcation)
+- [Identification](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#Identification)
 - [Containment](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#containment)
 - [Eradication](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#eradication)
 - [Recovery](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#recovery)
@@ -98,7 +98,7 @@ Most incident responders are technical, Awesome Incident Responders understand t
 
 ---
 
-## Identifcation
+## Identification
 Before we _Declare_ an incident, we need to identify the severity and impact of a security _event_. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the _correct things_ in your environment to quickly detect events as they occur in your environment. That said, Identification is much more than monitoring, I like to think of it as identifying all of the "Indicators of Compromise" as it pertains to the incident at hand.
 
 Being able to fully understand the scope of a security incident, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?.  All of these can be answered with an Awesome Logging strategy.  The logging section of the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md#2-ensure-you-are-logging-the-correct-events) is a good starting point of systems that should be logged.
