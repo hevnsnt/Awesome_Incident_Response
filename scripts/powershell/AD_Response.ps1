@@ -360,26 +360,26 @@ try {
         param (
             [string[]]$TargetUsers
         )
-
+    
         # Initialize arrays to store the processed and pending users
         $processedUsers = @()
         $pendingUsers = @()
-
+    
         # Check if the "processed_users.txt" file exists
-        if (Test-Path "'$outputDirectory\processed_users.txt") {
+        if (Test-Path "$outputDirectory\processed_users.txt") {
             # Read the list of processed users from "processed_users.txt"
-            $processedUsers = Get-Content -Path "'$outputDirectory\processed_users.txt"
+            $processedUsers = Get-Content -Path "$outputDirectory\processed_users.txt"
         }
-
+    
         # Filter out the processed users from the target users
         $pendingUsers = $TargetUsers | Where-Object { $_ -notin $processedUsers }
-
+    
         # Get the count of pending users
         $pendingUserCount = $pendingUsers.Count
-
+    
         # Ask the user to confirm the number of accounts to reset
         $confirmReset = Read-Host "Do you want to force password change on next login for $pendingUserCount user accounts? (Y/N)"
-
+    
         if ($confirmReset -eq "Y") {
             # Force password change for each pending user
             foreach ($user in $pendingUsers) {
@@ -392,20 +392,18 @@ try {
                 else {
                     LogMessage "Failed to force password change for user '$user'." ""
                 }
-
-                # Save the list of pending users to "pending_users.txt"
-                $pendingUsers | Where-Object { $_ -ne $user } | Out-File -FilePath "$outputDirectory\pending_users.txt" -Encoding UTF8 -Force
             }
-
+    
             # Save the list of processed users to "processed_users.txt"
             $processedUsers | Out-File -FilePath "$outputDirectory\processed_users.txt" -Encoding UTF8 -Force
-
+    
             LogMessage "Password change on next login has been enforced for processed users." ""
         }
         else {
             LogMessage "Password change on next login has been skipped." ""
         }
     }
+    
 
     if ($activeFlag) {
         # This script forces a password change on next login for users in "target_accounts.txt"
