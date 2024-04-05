@@ -351,8 +351,6 @@ try {
                 $ntdsutilCommand = "ntdsutil 'activate instance ntds' 'ifm' 'create full $backupDirectory\ntbackup' quit quit"
                 $ntdsutilOutput = Invoke-Expression "$ntdsutilCommand 2>&1"
                 LogMessage "ntdsutil command output: $ntdsutilOutput" ""
-                $ntdsutilExe = "ntdsutil.exe"
-                $ntdsutilArgs = "'activate instance ntds' 'ifm' 'create full $backupDirectory' quit quit"
             }
         }
     }
