@@ -72,7 +72,7 @@ function Show-Logo {
                                      @           @@@@@ @@                  &@@& @@  @@@@@@               
                                                 @@@@@@@*                                                 
                                                @@@ @@         TRIFIDENT VALIDATION                                           
-                                            @@   @       - ACTIVE DIRECTORY ASSESSMENT -                                            
+                                            @@   @       - ACTIVE DIRECTORY RESPONSE -                                            
                                          @@ @@@@@                                                         
                                              @                       
 "@
