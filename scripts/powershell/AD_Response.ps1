@@ -417,7 +417,7 @@ try {
         $confirmPasswordChange = Read-Host "Do you want to force password change on next login for users in '$outputDirectory\target_accounts.txt'? (Y/N)"
         if ($confirmPasswordChange -eq "Y") {
             # Read the list of users from "target_accounts.txt", skipping the first two lines
-            $targetUsers = Get-Content -Path "$outputDirectory\target_accounts.txt" | Select-Object -Skip 2 | ForEach-Object {
+            $targetUsers = Get-Content -Path "$outputDirectory\target_accounts.txt" | Select-Object -Skip 3 | ForEach-Object {
                 # Trim each line and extract the SamAccountName
                 $trimmedUser = $_.Trim().Split(' ')[0]
                 # Output the trimmed user if it's not empty
