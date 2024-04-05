@@ -1,38 +1,3 @@
-<#
-.SYNOPSIS
-    Active Directory Assessment and Incident Response Script
-
-.DESCRIPTION
-    This script performs various Active Directory assessment and incident response tasks to assist in identifying and responding to potential security incidents.
-
-    The script retrieves information about user accounts, computers, GPOs, and group memberships, and saves the results to text files in the specified output directory.
-    It also provides options for creating an Active Directory backup and forcing password changes for user accounts.
-
-    The script supports two modes of operation:
-    - Passive mode: Retrieves information without making any changes to Active Directory.
-    - Active mode: Allows performing actions such as creating an Active Directory backup and forcing password changes.
-
-    The script prompts for user confirmation before executing any active commands.
-
-.NOTES
-    Script Name : AD_Response.ps1
-    Author      : Bill Swearingen (bill@trifident.com)
-    Created On  : 04/04/2024
-    Version     : v1.0
-
-.EXAMPLE
-    .\aduser.ps1
-    Runs the script in passive mode, retrieving information about Active Directory without making any changes.
-
-.EXAMPLE
-    .\aduser.ps1 --active
-    Runs the script in active mode, allowing the creation of an Active Directory backup and forcing password changes for user accounts.
-
-.LINK
-    https://github.com/hevnsnt/Awesome_Incident_Response
-
-#>
-
 ##### USER DEFINDED VARIABLES #####
 # Set the output directory
 $outputDirectory = "output"
