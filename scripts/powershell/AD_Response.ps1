@@ -327,25 +327,35 @@ try {
 
     if ($activeFlag) {
         # Ask the user if they want to perform a full Active Directory backup
-        $confirmBackup = Read-Host "Do you want to perform a full Active Directory backup? (Y/N)`nA full Active Directory backup includes:`n- Active Directory database (NTDS.DIT)`n- Active Directory transaction log files`n- SYSVOL folder`n- Registry`nThe backup can be used for disaster recovery or to restore Active Directory to a previous state if needed."
-
+        $confirmBackup = Read-Host "`nA full Active Directory backup includes:`n- Active Directory database (NTDS.DIT)`n- Active Directory transaction log files`n- SYSVOL folder`n- Registry`nThe backup can be used for disaster recovery or to restore Active Directory to a previous state if needed. `nDo you want to perform a full Active Directory backup? (Y/N)"
+    
         if ($confirmBackup -eq "Y") {
-            $backupDirectory = Read-Host "Enter the backup directory path:"
-
+            # Get the current working directory
+            $currentDirectory = Get-Location
+    
+            # Ask the user if they want to save the backup in the current directory
+            $useCurrentDirectory = Read-Host "The current working directory is: '$currentDirectory'. `nDo you want to save the backup in this directory? (Y/N)"
+    
+            if ($useCurrentDirectory -eq "Y") {
+                $backupDirectory = $currentDirectory
+            }
+            else {
+                $backupDirectory = Read-Host "Enter the backup directory path:"
+            }
+    
             # Validate the backup directory path
             if (-not (Test-Path $backupDirectory)) {
                 LogMessage "Error: The specified backup directory path is invalid or inaccessible." ""
             }
             else {
-                if (Test-Permission "Backup-ADDatabase -BackupDirectory '$backupDirectory'") {
-                    # Proceed if the user has permission
-                    LogMessage "Active Directory backup completed. Backup location: '$backupDirectory'" ""
-                    LogMessage "To restore the Active Directory backup:`n1. Boot the domain controller into Directory Services Restore Mode (DSRM)`n2. Open a command prompt and navigate to the backup location`n3. Use the Restore-ADDatabase cmdlet to restore the backup`n4. Restart the domain controller in normal mode`n5. Verify that Active Directory has been successfully restored"
-                }
+                $ntdsutilCommand = "ntdsutil 'activate instance ntds' 'ifm' 'create full $backupDirectory\ntbackup' quit quit"
+                $ntdsutilOutput = Invoke-Expression "$ntdsutilCommand 2>&1"
+                LogMessage "ntdsutil command output: $ntdsutilOutput" ""
+                $ntdsutilExe = "ntdsutil.exe"
+                $ntdsutilArgs = "'activate instance ntds' 'ifm' 'create full $backupDirectory' quit quit"
             }
         }
     }
-
     function ForcePasswordChangeOnNextLogon {
         param (
             [string[]]$TargetUsers
@@ -356,9 +366,9 @@ try {
         $pendingUsers = @()
 
         # Check if the "processed_users.txt" file exists
-        if (Test-Path "processed_users.txt") {
+        if (Test-Path "'$outputDirectory\processed_users.txt") {
             # Read the list of processed users from "processed_users.txt"
-            $processedUsers = Get-Content -Path "processed_users.txt"
+            $processedUsers = Get-Content -Path "'$outputDirectory\processed_users.txt"
         }
 
         # Filter out the processed users from the target users
@@ -373,7 +383,8 @@ try {
         if ($confirmReset -eq "Y") {
             # Force password change for each pending user
             foreach ($user in $pendingUsers) {
-                if (Test-Permission "Get-ADUser -Identity $user | Set-ADUser -ChangePasswordAtLogon \$true") {
+                $user = $user.Trim()
+                if (Test-Permission "Get-ADUser -Identity $user | Set-ADUser -ChangePasswordAtLogon ([System.Boolean]::True)") {
                     # Proceed if the user has permission
                     LogMessage "User '$user' will be prompted to change password at next logon." ""
                     $processedUsers += $user
@@ -383,11 +394,11 @@ try {
                 }
 
                 # Save the list of pending users to "pending_users.txt"
-                $pendingUsers | Where-Object { $_ -ne $user } | Out-File -FilePath "pending_users.txt" -Encoding UTF8 -Force
+                $pendingUsers | Where-Object { $_ -ne $user } | Out-File -FilePath "$outputDirectory\pending_users.txt" -Encoding UTF8 -Force
             }
 
             # Save the list of processed users to "processed_users.txt"
-            $processedUsers | Out-File -FilePath "processed_users.txt" -Encoding UTF8 -Force
+            $processedUsers | Out-File -FilePath "$outputDirectory\processed_users.txt" -Encoding UTF8 -Force
 
             LogMessage "Password change on next login has been enforced for processed users." ""
         }
@@ -405,13 +416,21 @@ try {
         # After processing each user, the script saves the list of remaining pending users (excluding the current user) to the "pending_users.txt" file using the Out-File cmdlet. 
         # This ensures that if the script fails or dies during execution, the pending users are saved, and the script can resume from where it left off.
         # After processing all pending users, the list of processed users is saved to the "processed_users.txt" file.
-        $confirmPasswordChange = Read-Host "Do you want to force password change on next login for users in 'target_accounts.txt'? (Y/N)"
+        $confirmPasswordChange = Read-Host "Do you want to force password change on next login for users in '$outputDirectory\target_accounts.txt'? (Y/N)"
         if ($confirmPasswordChange -eq "Y") {
-            # Read the list of users from "target_accounts.txt"
-            $targetUsers = Get-Content -Path "target_accounts.txt" | Select-Object -ExpandProperty SamAccountName
+            # Read the list of users from "target_accounts.txt", skipping the first two lines
+            $targetUsers = Get-Content -Path "$outputDirectory\target_accounts.txt" | Select-Object -Skip 2 | ForEach-Object {
+                # Trim each line and extract the SamAccountName
+                $trimmedUser = $_.Trim().Split(' ')[0]
+                # Output the trimmed user if it's not empty
+                if (-not [string]::IsNullOrWhiteSpace($trimmedUser)) {
+                    $trimmedUser
+                }
+            }
+
 
             # Call the ForcePasswordChangeOnNextLogon function
-            # ForcePasswordChangeOnNextLogon -TargetUsers $targetUsers
+            ForcePasswordChangeOnNextLogon -TargetUsers $targetUsers
         }
     }
 
