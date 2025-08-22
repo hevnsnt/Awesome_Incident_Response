@@ -113,11 +113,11 @@ Detection can come from anywhere: a SIEM alert, an EDR tool flagging a suspiciou
 ### 2. Establish Situational Awareness: 
 Answer the 5 W's: Once an event is validated, the Incident Commander's primary goal is to establish situational awareness. This is the detective work. You need to immediately start answering the fundamental investigative questions :  
 
-* Who? Which user accounts are compromised? Who is the adversary?
-* What? What systems, applications, and data are affected? What is the nature of the attack (malware, data theft, etc.)?
-* Where? Where in the network is the activity? Is it contained or spreading? On-prem or in the cloud?
-* When? What's the timeline? When did the initial compromise occur?
-* How? What was the entry point? What tools and techniques are being used?
+* **Who?** Which user accounts are compromised? Who is the adversary?
+* **What?** What systems, applications, and data are affected? What is the nature of the attack (malware, data theft, etc.)?
+* **When?** What's the timeline? When did the initial compromise occur?
+* **Where?** Where in the network is the activity? Is it contained or spreading? On-prem or in the cloud?
+* **How?** What was the entry point? What tools and techniques are being used?
 
 The answers to these questions form the foundation for every strategic decision you'll make next.
 
@@ -129,9 +129,9 @@ Never trust a single data point. A single alert is just a breadcrumb; it's not t
 
 Think of it as pivoting. You start with one piece of data and use it to find the next. Discovered a compromised user account from a suspicious VPN login? That's your starting point.
 
-* Pivot from the connection: What else did that attacker's source IP do? Pull the firewall, proxy, and DNS logs for that IP address at the time of the login. Did they immediately try to connect to a high-value server or resolve a known malicious domain?   
-* Pivot from the identity: What other systems could that user account access? Query your identity management systems to understand the user's permissions and group memberships. This defines your potential blast radius and tells you where to hunt for lateral movement.  
-* Pivot from the endpoint: What happened on the machine they logged into? Check the EDR and local event logs on that system for new processes, suspicious command line activity, or registry modifications that occurred moments after the login.  
+* **Pivot from the connection:** What else did that attacker's source IP do? Pull the firewall, proxy, and DNS logs for that IP address at the time of the login. Did they immediately try to connect to a high-value server or resolve a known malicious domain?   
+* **Pivot from the identity:** What other systems could that user account access? Query your identity management systems to understand the user's permissions and group memberships. This defines your potential blast radius and tells you where to hunt for lateral movement.  
+* **Pivot from the endpoint:** What happened on the machine they logged into? Check the EDR and local event logs on that system for new processes, suspicious command line activity, or registry modifications that occurred moments after the login.  
 
 By weaving together these disparate data sources—network traffic, host-based artifacts, and identity information—you transform a single, low-confidence alert into a high-confidence, well-understood incident.  
 
