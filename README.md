@@ -33,7 +33,7 @@ If you believe that a community driven, open-sourced, and validated "Awesome Inc
 - [Containment](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#containment)
 - [Eradication](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#eradication)
 - [Recovery](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#recovery)
-- [Lessions Learned](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#lessons-learned)
+- [Lessons Learned](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#lessons-learned)
 - [Tools Index](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/README.md#tools-index)
 
 ---
@@ -103,7 +103,43 @@ Before we _Declare_ an incident, we need to identify the severity and impact of 
 
 Being able to fully understand the scope of a security incident, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?.  All of these can be answered with an Awesome Logging strategy.  The logging section of the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md#2-ensure-you-are-logging-the-correct-events) is a good starting point of systems that should be logged.
 
+The core of Identification is triage and investigation. It's the process of taking a single indicator—an alert, a weird log entry—and building a complete picture of what's happening. This is where all that hard work you did in the Preparation phase pays off. Remember that Awesome Logging strategy we talked about? This is its time to shine. Without good data, you're flying blind. With it, you can start answering the critical questions every incident commander needs to know: Who is the attacker? What systems are they on? When did they get in? Where have they been? How did they do it? And why are they targeting us? Answering these questions quickly and accurately is the difference between a controlled response and pure chaos.
 
+Do these 6 things to turn a confusing alert into actionable intelligence:
+
+### 1. Acknowledge and Validate the Initial Alert: 
+Detection can come from anywhere: a SIEM alert, an EDR tool flagging a suspicious process, a user reporting a weird email, or even a call from the FBI. The first step is to acknowledge the signal and begin the validation process. A single alert is rarely enough to declare an incident. Your first responders, often the SOC, need to perform initial validation by correlating the alert with other data sources. Does that network alert match up with endpoint process logs? Does that "impossible travel" alert make sense given the user's calendar? This initial filter is crucial to weed out the false positives so the CSIRT can focus on real threats.   
+
+### 2. Establish Situational Awareness: 
+Answer the 5 W's: Once an event is validated, the Incident Commander's primary goal is to establish situational awareness. This is the detective work. You need to immediately start answering the fundamental investigative questions :  
+
+* Who? Which user accounts are compromised? Who is the adversary?
+* What? What systems, applications, and data are affected? What is the nature of the attack (malware, data theft, etc.)?
+* Where? Where in the network is the activity? Is it contained or spreading? On-prem or in the cloud?
+* When? What's the timeline? When did the initial compromise occur?
+* How? What was the entry point? What tools and techniques are being used?
+
+The answers to these questions form the foundation for every strategic decision you'll make next.
+
+### 3. Determine the Severity and Impact: 
+Not all incidents are created equal. A single malware infection on a non-critical workstation is not the same as a domain controller compromise. You must use a formal process to classify the incident's severity, ensuring the response is proportional to the risk. This is where the Incident Classification Matrix from your Incident Response Plan comes into play. By evaluating the functional impact (what's broken?), the information impact (what data is at risk?), and the recoverability (how hard is it to fix?), you can assign a severity level—like Critical, High, Medium, or Low. This classification dictates everything that follows: who gets called, how fast you need to move, and what resources are mobilized.  
+
+### 4. Correlate, Correlate, Correlate!: 
+Never trust a single data point. A single alert is just a breadcrumb; it's not the whole trail. An Awesome Incident Response relies on building a case from multiple, corroborating pieces of evidence. This is where you leverage the full spectrum of logs you so diligently set up in the Preparation phase. Your job as the incident commander is to identify, obtain, and review all logs that may be relevant to the investigation.  
+
+Think of it as pivoting. You start with one piece of data and use it to find the next. Discovered a compromised user account from a suspicious VPN login? That's your starting point.
+
+* Pivot from the connection: What else did that attacker's source IP do? Pull the firewall, proxy, and DNS logs for that IP address at the time of the login. Did they immediately try to connect to a high-value server or resolve a known malicious domain?   
+* Pivot from the identity: What other systems could that user account access? Query your identity management systems to understand the user's permissions and group memberships. This defines your potential blast radius and tells you where to hunt for lateral movement.  
+* Pivot from the endpoint: What happened on the machine they logged into? Check the EDR and local event logs on that system for new processes, suspicious command line activity, or registry modifications that occurred moments after the login.  
+
+By weaving together these disparate data sources—network traffic, host-based artifacts, and identity information—you transform a single, low-confidence alert into a high-confidence, well-understood incident.  
+
+### 6. Start the Clock and Document Everything: 
+The moment you begin investigating, start a timeline. Open a case in your incident tracking system. Every action taken, every piece of evidence found, every person contacted—it all needs to be documented with a timestamp. This isn't just bureaucratic busywork. This documentation is critical for the Post-Incident review, where you'll learn from what happened. It's essential for communicating status to leadership. And if the incident leads to legal action, this contemporaneous log will be your most valuable piece of evidence. In the chaos of a response, details are easily forgotten. Write. It. Down.  
+
+### 6. Escalate According to the Plan: 
+The Security Operations Center (SOC) can handle a Low-severity incident. The full CSIRT is needed for a Medium. But a High or Critical incident? That requires bringing in the heavy hitters. Your escalation procedures, defined in the IRP, are your guide. They tell you exactly when to notify the CISO, when to bring Legal and HR into the loop, and when to get the PR team on standby. Following these procedures is not optional. It prevents the IC from having to make these calls under pressure and ensures that all stakeholders are engaged at the appropriate time, preventing confusion and enabling a coordinated, enterprise-wide response.   
 
 Read More on the [Identification Chapter](./chapters/2%20-%20Identification/identification.md)
 
