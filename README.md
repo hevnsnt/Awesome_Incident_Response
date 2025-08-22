@@ -1,13 +1,13 @@
 # Awesome Incident Response [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 <img align="right" src="./images/awesome-incident-response.png" width="200" alt="Awesome Incident Response" title="Awesome Incident Response">
-Welcome to "Awesome Incident Response" the ultimate open-source repository designed to simplify and guide you through the intricate world of incident response! Whether you're a seasoned cybersecurity professional or an aspiring enthusiast, this comprehensive collection of resources and tutorials will equip you with the knowledge and skills to effectively handle and mitigate security incidents. These strategies were developed with several decades of incident response experience and should guide you well through any type of cyber security incident, and pulls text and images from multiple sources that will be cited. 
+Welcome to "Awesome Incident Response," the ultimate open-source repository designed to simplify and guide you through the intricate world of incident response! Whether you're a seasoned cybersecurity professional or an aspiring enthusiast, this comprehensive collection of resources and tutorials will equip you with the knowledge and skills to effectively handle and mitigate security incidents. These strategies were developed with several decades of incident response experience and should guide you well through any type of cybersecurity incident. 
 <br /><br />
 
 **Using this Guide:**
 
 The main page (this page) should be considered the consolidated aka the "For Dummies" version of the Awesome Incident Response guide. Each phase of Awesome Incident Response is described and gives you the best practices needed for an effecient and effective response.  But if you want more detail, or need additional guidance, each section will have a [Read More] that will go more in depth.
 
-This curated list of tools and resources is aimed to help security leaders, analysts, and [DFIR](http://www.acronymfinder.com/Digital-Forensics%2c-Incident-Response-%28DFIR%29.html) teams, and is always a work in progress. I hope you find this valuable, and as always Pull requests are encouraged and appreciated!
+This curated list of tools and resources is aimed at helping security leaders, analysts, and [DFIR](http://www.acronymfinder.com/Digital-Forensics%2c-Incident-Response-%28DFIR%29.html) teams, and is always a work in progress. I hope you find this valuable, and as always Pull requests are encouraged and appreciated!
 
 
 [-Bill (hevnsnt)](https://github.com/hevnsnt/Awesome_Incident_Response/blob/main/author.md)
@@ -52,8 +52,8 @@ Also, you will look like a super hero!
 > --  [Google, Incident Response](https://sre.google/workbook/incident-response/)
 
 Awesome Incident Response requires a collaboration across multiple teams, this is not only for IT & Security (surprise!). Any major cyber-incident is a Company-wide crisis, and will require support from Executives, Legal, Communications, HR, Disaster Recovery, IT Operations, Development, and Security. Make sure these people know their role during an incident, and have the authority to act.
-This section describes how to ensure that you have the right people, capbabilities, authorities, and processes in place in order to effectively respond to a crisis. 
-Then we will discuss how to test your IR capablity to validate that everything is working as expected.
+This section describes how to ensure that you have the right people, capabilities, authorities, and processes in place in order to effectively respond to a crisis. 
+Then we will discuss how to test your IR capability to validate that everything is working as expected.
 
 ### Do these 7 things now to greatly improve your ability to respond to any cyber crisis:
 
@@ -65,7 +65,7 @@ After you have a plan, Exercise it!  There is a saying "Train like you fight, Fi
 
 ### 2. Ensure you are logging the correct events:
 
-I have worked thousands of incidents, and I have never seen an organization that is logging all the data sources that would have been extremely helpful for the detection and/or response. Often this is because they simply do not know what to log, or a logging solution is something they have not tackled (or received expense approval for) yet. Having a logging plan is essential, as a security leader you can’t keep going back to get more budget as new applications, services, networks, or assets are introduced to your environment. These costs need to be built into the project BEFORE it was implemented, start that understanding at an executive level now. At the very basic level, you need to be logging the the most critical areas of your environment, and these logs should be located on a separate system and retained for at least 90 days. For a indepth discussion about logging, see the Logging section of the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md#2-ensure-you-are-logging-the-correct-events)
+I have worked thousands of incidents, and I have never seen an organization that is logging all the data sources that would have been extremely helpful for the detection and/or response. Often this is because they simply do not know what to log, or a logging solution is something they have not tackled (or received expense approval for) yet. Having a logging plan is essential, as a security leader you can’t keep going back to get more budget as new applications, services, networks, or assets are introduced to your environment. These costs need to be built into the project BEFORE it was implemented, start that understanding at an executive level now. At the very basic level, you need to be logging the most critical areas of your environment, and these logs should be located on a separate system and retained for at least 90 days. For a indepth discussion about logging, see the Logging section of the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md#2-ensure-you-are-logging-the-correct-events)
 
 ### 3. Regularly update software and systems: 
 
@@ -76,14 +76,14 @@ Keeping all software and systems up-to-date with the latest security patches and
 
 Regular security assessments can help identify vulnerabilities in your systems before they are exploited. This can include regular penetration testing, vulnerability scans, and security audits. At the least, Vulnerability Scanning should happen monthly, with each asset on your network being scanned at least once every quarter. Penetration testing should occur at least yearly.
 
-This isn't the Awesome Vulnerability Managment plan, so I will spare you the details. But if you want less incident response (reactive) and are looking for a proactive solution, well please patch your systems, and test them often.
+This isn't the Awesome Vulnerability Management plan, so I will spare you the details. But if you want less incident response (reactive) and are looking for a proactive solution, well please patch your systems, and test them often.
 
-Over the past couple of years, a high percentage of the incidents I have worked were because a third-party had lost control of "our" data on "their" systems. You can build the most secure environment and still be working an incident response because a vendor of yours .... didn't. Knowing WHO has WHAT data and access can greatly reduce the time to identify where a security incident originated. If you have extremely critical (or secret) data residing at a 3rd party, ensure that their standards meet yours.  Of course Cloud providers meet this criteria, but expand your thinking to include Law Firms, Accounting, Building Managment, etc. (yikes)
+Over the past couple of years, a high percentage of the incidents I have worked were because a third-party had lost control of "our" data on "their" systems. You can build the most secure environment and still be working an incident response because a vendor of yours .... didn't. Knowing WHO has WHAT data and access can greatly reduce the time to identify where a security incident originated. If you have extremely critical (or secret) data residing at a 3rd party, ensure that their standards meet yours.  Of course Cloud providers meet this criteria, but expand your thinking to include Law Firms, Accounting, Building Management, etc. (yikes)
 
 
 ### 5. Train employees and setup a Secure Communications Channel:
 
-As it pertains to Awesome Incident Response, you need to train your employees how to report security incidents, and train those individuals that have a incident response responsiblity (listed above) on their specific roles. I am trying to keep this guide focused on IR, but regular training for all employees on cybersecurity best practices and the importance of data privacy is crucial. This will not only raise awareness about potential risks, but also help prevent incidents from happening in the first place.
+As it pertains to Awesome Incident Response, you need to train your employees how to report security incidents, and train those individuals that have a an incident response responsibility (listed above) on their specific roles. I am trying to keep this guide focused on IR, but regular training for all employees on cybersecurity best practices and the importance of data privacy is crucial. This will not only raise awareness about potential risks, but also help prevent incidents from happening in the first place.
 
 Now would be a good time to identify a secure messaging channel, it is my recommendation that during the initial phases of an incident, to not use any corporate messaging solutions.  I recommend [Signal](https://signal.org). Have every person identified as an Incident Response Team member ensure it is installed and tested. When you have an incident, create a new group chat with a codename related to the incident, and have the messages delete after 1 week. Often as the incident is spinning up, you are not confident on the full scope of the incident, and mistakes are made. Taking these actions will protect against the threat actor having inside information and legal discovery activities, but check with your legal team before you do this.
 
@@ -99,7 +99,7 @@ Most incident responders are technical, Awesome Incident Responders understand t
 ---
 
 ## Identification
-Before we _Declare_ an incident, we need to identify the severity and impact of a security _event_. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the _correct things_ in your environment to quickly detect events as they occur in your environment. That said, Identification is much more than monitoring, I like to think of it as identifying all of the "Indicators of Compromise" as it pertains to the incident at hand.
+Before we _declare_ an incident, we need to identify the severity and impact of a security _event_. This section describes the best practices for building an effective Cyber Defense team, to ensure you are correctly monitoring the _correct things_ in your environment to quickly detect events as they occur in your environment. That said, Identification is much more than monitoring, I like to think of it as identifying all of the "Indicators of Compromise" as it pertains to the incident at hand.
 
 Being able to fully understand the scope of a security incident, we need evidence to review. When did this happen? How long ago? How many systems are impacted? Was anything exfiltrated/destroyed? Who did this?.  All of these can be answered with an Awesome Logging strategy.  The logging section of the [Preparation Chapter](./chapters/1%20-%20Preparation/preparation.md#2-ensure-you-are-logging-the-correct-events) is a good starting point of systems that should be logged.
 
@@ -160,7 +160,7 @@ Read More on the [Eradication Chapter](./chapters/4%20-%20Eradication/eradicatio
 ---
 
 ## Recovery
-The "recovery" phase of incident response refers to the stage where the focus shifts towards restoring normal business operations and returning the affected systems, networks, and data to a fully functional and secure state. The recovery phase follows the containment and eradication phases and involves activities aimed at recovering from the impact of the incident and minimizing any disruption caused to the organization. Often companies move to the recovery phase before Containment and Eradication are complete, leading to ineffective incient response and delaying a normal operating state. Do not make this mistake.
+The "recovery" phase of incident response refers to the stage where the focus shifts towards restoring normal business operations and returning the affected systems, networks, and data to a fully functional and secure state. The recovery phase follows the containment and eradication phases and involves activities aimed at recovering from the impact of the incident and minimizing any disruption caused to the organization. Often companies move to the recovery phase before Containment and Eradication are complete, leading to ineffective incident response and delaying a normal operating state. Do not make this mistake.
 
 Read More on the [Recovery Chapter](./chapters/5%20-%20Recovery/recovery.md)
 
