@@ -259,6 +259,7 @@ The following list was originally developed by [meirwah](https://github.com/meir
 ) - Different generic incident response workflows, e.g. for malware outbreak, data theft, unauthorized access,... Every workflow consists of seven steps: prepare, detect, analyze, contain, eradicate, recover, post-incident handling. The workflows are online available or for download.
 * [PagerDuty Incident Response Documentation](https://response.pagerduty.com/) - Documents that describe parts of the PagerDuty Incident Response process. It provides information not only on preparing for an incident, but also what to do during and after. Source is available on [GitHub](https://github.com/PagerDuty/incident-response-docs).
 * [Phantom Community Playbooks](https://github.com/phantomcyber/playbooks) - Phantom Community Playbooks for Splunk but also customizable for other use.
+* [RMM Incident Response Runbook](https://izikipizi.github.io/nizlo-msp-operations-resources/rmm-incident-response-runbook-template.html) - Free, vendor-neutral 30-control runbook and downloadable CSV for preparing for, containing, investigating, recovering from, and documenting incidents involving remote monitoring and management software.
 * [ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook) - Playbook to aid the development of techniques and hypothesis for hunting campaigns.
 
 ### Process Dump Tools
