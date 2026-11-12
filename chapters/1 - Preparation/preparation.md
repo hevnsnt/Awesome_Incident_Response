@@ -49,6 +49,8 @@ Address legal and regulatory requirements related to incident response, includin
 Outline training and awareness programs for incident response team members and other employees. Provide guidance on recognizing and reporting security incidents, handling sensitive data, and adhering to incident response procedures.
 * **Testing and Review:**
 Include plans for regular testing and exercising the IRP to ensure its effectiveness. Conduct tabletop exercises, simulations, and penetration testing to validate the plan. Schedule periodic reviews and updates to incorporate lessons learned and emerging threats.
+
+  * [RMM continuity drill checklist](https://izikipizi.github.io/nizlo-msp-operations-resources/rmm-continuity-drill-checklist.html) - A vendor-neutral worksheet for testing independent inventory, alternate incident intake, approved endpoint access, recovery evidence, and reconciliation when the normal endpoint-management plane is unavailable.
 * **Document Retention:**
 Define the retention and disposal policies for incident-related documentation, including logs, reports, and evidence. Ensure compliance with legal and regulatory requirements.
 
